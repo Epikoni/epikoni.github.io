@@ -21,7 +21,7 @@ export default {
             {
                 name: "Wechat",
                 icon: "fa-wexin",
-                img: "./images/Erweicaihong.png"
+                link: "./images/Erweicaihong.png"
             }
             {
                 name: "QQ",
