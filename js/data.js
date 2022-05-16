@@ -9,11 +9,6 @@ export default {
         bg: "./images/bg.jpg",
         subTitle: "即使前方的路看似绝境，也要有硬生生给自己开出一条路的勇气",
         contact: [{
-                name: "Blog",
-                icon: "fa-wordpress",
-                link: "https://blog.n0ts.cn/"
-            },
-            {
                 name: "Email",
                 icon: "fa-envelope",
                 link: "mailto:epikoni233@gmail.com"
@@ -23,6 +18,11 @@ export default {
                 icon: "fa-github",
                 link: "https://github.com/Epikoni"
             },
+            {
+                name: "Wechat",
+                icon: "fa-wexin",
+                link: "h957239301"
+            }
             {
                 name: "QQ",
                 icon: "fa-qq",
