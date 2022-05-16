@@ -21,7 +21,7 @@ export default {
             {
                 name: "Wechat",
                 icon: "fa-wexin",
-                link: "./images/Erweicaihong.png"
+                link: "https://github.com/Epikoni"
             },
             {
                 name: "QQ",
