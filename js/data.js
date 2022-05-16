@@ -41,14 +41,14 @@ export default {
             content: "<span></span>我叫<b>刘若男</b>，今年21岁，是美国威斯康星麦迪逊大学的一名大四在读生，所学专业是<b>计算机科学</b>辅修<b>游戏设计</b>；<br /><span></span>我个人对于游戏设计开发有<b>浓厚的兴趣</b>，喜欢用学习到的知识去设计与开发一些游戏，喜欢通过游戏表达<b>自己的理念</b>。"
         },
         ability: [{
-                icon: "fa-html5",
+                icon: "fa-gamepad",
                 title: "游戏设计",
                 subTitle: "MDA Framework, Gee's Learning Principles...",
                 color: "#ff4757",
                 bfb: "80%"
             },
             {
-                icon: "fa-code",
+                icon: "fa-desktop",
                 title: "游戏开发",
                 subTitle: "RPG Maker, Bitsy, Twine, Unity...",
                 color: "#ffa502",
@@ -62,7 +62,7 @@ export default {
                 bfb: "80%"
             },
             {
-                icon: "fa-linux",
+                icon: "fa-code",
                 title: "编程",
                 subTitle: "Java, C/C++, C#, Python...",
                 color: "#1e90ff",
@@ -166,268 +166,6 @@ export default {
                 <p>1、前端功能开发、页面设计；</p>
                 <p>2、支付宝支付对接；</p>
                 <p>3、Debug测试并修复；</p>`,
-            },
-            {
-                name: "小次郎点餐",
-                text: "点餐软件，拥有管理后台与客户界面",
-                nb: [
-                    "Winform", "SQLServer", "C#"
-                ],
-                url: "https://gitee.com/n0ts/CSharpOrderFood",
-                img: "./images/xcl1.png",
-                content: `<h2>项目类型</h2>
-                <p>练手项目</p>
-                <h2>开发周期</h2>
-                <p>2021年4月2日 – 2021年5月5日，2人/33天</p>
-                <h2>开发工具</h2>
-                <p>Visual Studio、SQLServer、Git</p>
-                <h2>项目背景</h2>
-                <p>本项目是为了满足巨大的餐饮市场中人们对快捷点餐的需求。我们的产品具有的高效、快捷、便利的特点将会为我们带来巨大的市场，我们的产品开发初期主要服务于餐饮行业，后续开发可涉及更广泛的娱乐、生活领域，是一款具备广阔市场前景的应用！</p>
-                <h2>模块介绍</h2>
-                <p>1、	基本：登录注册、找回密码、密保、验证码；</p>
-                <p>2、	客户端：美食分类、购物车、支付充值、订单操作、地址管理、个人信息修改、密码修改、数据可视化；</p>
-                <p>3、	服务端：订单管理、美食与分类管理、上下架操作、美食图片上传、用户管理、数据可视化；</p>
-                <h2>项目技术</h2>
-                <p>1、	使用 Winform 绘制软件界面，C# 便携后台代码；</p>
-                <p>2、	使用 SQLServer 作为数据存储，便携 DBHelper 类与数据库进行交互；</p>
-                <p>3、	图片验证码使用 Winform GDI+ 绘图生成随机验证码并显示；</p>
-                <p>4、	所有密码采用 MD5 加密方式进行存储；</p>
-                <p>5、	对所有的前台数据进行XSS注入或为空验证，防止恶意代码或空值造成程序报错；</p>
-                <p>6、	许多位置进行了 Try Catch 异常捕获，如发生断网等情况软件会提醒客户而不是报错；</p>
-                <h2>项目预览</h2>
-                <ul>
-                    <li><img src="./images/xcl1.png"></li>
-                    <li><img src="./images/xcl2.png"></li>
-                    <li><img src="./images/xcl3.png"></li>
-                </ul>
-                <h2>项目职责</h2>
-                <p>1、参与原型图设计与 UI 设计，辅助市场调研；</p>
-                <p>2、负责数据库设计，模块设计；</p>
-                <p>3、客户端与服务端的编程开发；</p>
-                <p>4、修复测试人员发现的BUG；</p>`,
-            },
-            {
-                name: "记仇小本本",
-                text: "简约到极致的日记记录",
-                nb: [
-                    "Gitee Issues", "Vue", "Vue", "Linux", "SEO", "CDN"
-                ],
-                url: "https://heng.n0ts.cn/",
-                img: "./images/heng1.png",
-                content: `<h2>项目类型</h2>
-                <p>练手项目</p>
-                <h2>开发周期</h2>
-                <p>1人/2天</p>
-                <h2>开发工具</h2>
-                <p>Visual Code、Git、Postman、Gitee API</p>
-                <h2>项目背景</h2>
-                <p>单纯的记仇小本本，可用于记录日常生活</p>
-                <h2>模块介绍</h2>
-                <p>1、	查看记仇；</p>
-                <p>2、	发布记仇；</p>
-                <h2>项目技术</h2>
-                <p>1、	前端采用Vue + ElementUI制作；</p>
-                <p>2、	数据存储利用了Gitee Issues进行存储；</p>
-                <p>3、	CSS 3D样式模拟书本翻页；</p>
-                <p>4、	CSS 绘制书本样式；</p>
-                <p>5、	懒加载记仇数据，类似于翻页；</p>
-                <p>6、	富文本支持，表情照片视频支持；</p>
-                <p>7、	全端响应式自适应；</p>
-                <p>8、	采用CDN加速网站；</p>
-                <h2>项目预览</h2>
-                <ul>
-                    <li><img src="./images/heng1.png"></li>
-                    <li><img src="./images/heng2.png"></li>
-                    <li><img src="./images/heng3.png"></li>
-                </ul>`,
-            },
-            {
-                name: "IceCreem搜索导航",
-                text: "好看的导航搜索页",
-                nb: [
-                    "Vue", "Vue", "Linux", "SEO", "CDN"
-                ],
-                url: "https://n0ts.gitee.io/icecreamsearch/",
-                img: "./images/so.png",
-                content: `<h2>项目类型</h2>
-                <p>练手项目</p>
-                <h2>开发周期</h2>
-                <p>1人/2天</p>
-                <h2>开发工具</h2>
-                <p>Visual Code、Git、Postman、Gitee API</p>
-                <h2>项目背景</h2>
-                <p>团队需要，新年新官网</p>
-                <h2>模块介绍</h2>
-                <p>1、	搜索功能；</p>
-                <p>2、	搜索引擎切换与添加；</p>
-                <p>3、	各类实用网站导航与分类；</p>
-                <p>4、	配置本地存储；</p>
-                <p>5、	背景图获取 bing 每日壁纸或自定义壁纸；</p>
-                <p>6、	搜索结果数量自定义；</p>
-                <h2>项目技术</h2>
-                <p>1、	前端采用 Vue + ElementUI 制作，后端采用 Node + Mysql 制作；</p>
-                <p>2、	百度搜索结果实时回调；</p>
-                <p>3、	bing 每日壁纸回调；</p>
-                <p>4、	本地配置存储；</p>
-                <p>5、	实用网站分类预览；</p>
-                <p>6、	全端响应式自适应；</p>
-                <p>7、	采用CDN加速网站；</p>
-                <h2>项目预览</h2>
-                <p>暂无</p>`,
-            },
-            {
-                name: "极客之眼官网",
-                text: "GeekEyes极客之眼官方网站",
-                nb: [
-                    "Vue", "Linux", "SEO", "CDN"
-                ],
-                url: "https://www.geekeyes.cn/",
-                img: "./images/geek1.png",
-                content: `<h2>项目类型</h2>
-                <p>官网</p>
-                <h2>开发周期</h2>
-                <p>1人/8天</p>
-                <h2>开发工具</h2>
-                <p>Visual Code、Git、Postman、Gitee API</p>
-                <h2>项目背景</h2>
-                <p>团队需要，新年新官网</p>
-                <h2>模块介绍</h2>
-                <p>1、	首页轮播图，介绍；</p>
-                <p>2、	关于我们；</p>
-                <p>3、	公益活动；</p>
-                <p>4、	捐赠人员；</p>
-                <p>5、	团队成员；</p>
-                <p>6、	加入我们；</p>
-                <h2>项目技术</h2>
-                <p>1、	前端采用Vue制作；</p>
-                <p>2、	CSS 中国风科技感设计；</p>
-                <p>3、	CSS 按钮赛博朋克电磁风格；</p>
-                <p>4、	CSS 推拉门图片风格；</p>
-                <p>5、	全端响应式自适应；</p>
-                <p>6、	采用CDN加速网站；</p>
-                <h2>项目预览</h2>
-                <ul>
-                    <li><img src="./images/geek1.png"></li>
-                    <li><img src="./images/geek2.png"></li>
-                    <li><img src="./images/geek3.png"></li>
-                    <li><img src="./images/geek4.png"></li>
-                </ul>`,
-            },
-            {
-                name: "计算机协会官网",
-                text: "给岳阳职院计算机协会写的官网",
-                nb: [
-                    "Vue", "Linux", "SEO", "CDN"
-                ],
-                url: "https://xxgcteam.com/",
-                img: "./images/xxgc1.png",
-                content: `<h2>项目类型</h2>
-                <p>官网</p>
-                <h2>开发周期</h2>
-                <p>1人/4天</p>
-                <h2>开发工具</h2>
-                <p>Visual Code、Git、Postman</p>
-                <h2>项目背景</h2>
-                <p>给好朋友会长做一个计协官网</p>
-                <h2>模块介绍</h2>
-                <p>1、	首页；</p>
-                <p>2、	关于我们；</p>
-                <p>3、	历程发展；</p>
-                <p>4、	计协干部；</p>
-                <p>5、	日常一览；</p>
-                <p>6、	加入我们；</p>
-                <h2>项目技术</h2>
-                <p>1、	前端采用 Vue + ElementUI 制作，后端采用 Node + Mysql 制作；</p>
-                <p>2、	轮播图，轮播图的放大效果动效；</p>
-                <p>3、	关于我们点击文章功能；</p>
-                <h2>项目预览</h2>
-                <ul>
-                    <li><img src="./images/xxgc1.png"></li>
-                    <li><img src="./images/xxgc2.png"></li>
-                    <li><img src="./images/xxgc3.png"></li>
-                </ul>`,
-            },
-            {
-                name: "NutssssIndex",
-                text: "自己的个人主页的系列",
-                nb: [
-                    "HTML", "CSS", "JS", "Vue", "Vue", "Linux", "SEO", "CDN"
-                ],
-                url: "https://gitee.com/n0ts/NutssssIndex",
-                img: "./images/nuts1.png",
-                content: `<h2>项目类型</h2>
-                <p>练手单页</p>
-                <h2>开发周期</h2>
-                <p>1人/？天</p>
-                <h2>开发工具</h2>
-                <p>Visual Code、Git、Postman</p>
-                <h2>项目背景</h2>
-                <p>个人练手设计作品</p>
-                <h2>项目技术</h2>
-                <p>1、	全端响应式自适应；</p>
-                <p>2、	简约风格，与众不同；</p>
-                <h2>项目预览</h2>
-                <ul>
-                    <li><img src="./images/nuts1.png"></li>
-                    <li><img src="./images/nuts2.png"></li>
-                </ul>`,
-            },
-            {
-                name: "lovexhj",
-                text: "送给另一半的",
-                nb: [
-                    "HTML", "CSS", "Js"
-                ],
-                url: "https://lovexhj.cn/",
-                img: "./images/xhj1.png",
-                content: `<h2>项目类型</h2>
-                <p>练手单页</p>
-                <h2>开发周期</h2>
-                <p>1人/10天</p>
-                <h2>开发工具</h2>
-                <p>Visual Code、Git</p>
-                <h2>项目背景</h2>
-                <p>第一个练手作品</p>
-                <h2>项目技术</h2>
-                <p>1、	全端响应式自适应；</p>
-                <p>2、	简约风格，与众不同；</p>
-                <p>3、	背景视差滚动；</p>
-                <p>4、	打字机效果；</p>
-                <h2>项目预览</h2>
-                <ul>
-                    <li><img src="./images/xhj1.png"></li>
-                    <li><img src="./images/xhj2.png"></li>
-                    <li><img src="./images/xhj3.png"></li>
-                    <li><img src="./images/xhj4.png"></li>
-                </ul>`,
-            },
-            {
-                name: "1905no1",
-                text: "给大学班级做的博客网站",
-                nb: [
-                    "HTML", "CSS", "Js", "PHP", "Wordpress"
-                ],
-                url: "https://1905no1.cn/",
-                img: "./images/no1.png",
-                content: `<h2>项目类型</h2>
-                <p>班级官网</p>
-                <h2>开发周期</h2>
-                <p>1人/4天</p>
-                <h2>开发工具</h2>
-                <p>Visual Code、Git、WordPress</p>
-                <h2>项目背景</h2>
-                <p>给班级做一个官网，基于WordPress实现文章发送等功能</p>
-                <h2>项目技术</h2>
-                <p>1、 全端响应式自适应；</p>
-                <p>2、 简约风格，与众不同；</p>
-                <p>3、 背景视差滚动；</p>
-                <p>4、 打字机效果；</p>
-                <h2>项目预览</h2>
-                <ul>
-                    <li><img src="./images/no1.png"></li>
-                    <li><img src="./images/no2.png"></li>
-                    <li><img src="./images/no3.png"></li>
-                </ul>`,
             }
         ],
         listLoadMore: "查看",
