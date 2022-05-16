@@ -9,26 +9,26 @@ export default {
         bg: "./images/bg.jpg",
         subTitle: "即使前方的路看似绝境，也要有硬生生给自己开出一条路的勇气",
         contact: [{
-                name: "Blog",
-                icon: "fa-wordpress",
-                link: "https://blog.n0ts.cn/"
-            },
-            {
-                name: "Email",
-                icon: "fa-envelope",
-                link: "mailto:mail@n0ts.cn"
-            },
-            {
-                name: "Gitee",
-                icon: "fa-github",
-                link: "https://gitee.com/n0ts"
-            },
-            {
-                name: "QQ",
-                icon: "fa-qq",
-                link: "https://wpa.qq.com/msgrd?v=3&uin=1656071287&site=qq&menu=yes"
-            }
-        ],
+            name: "Email",
+            icon: "fa-envelope",
+            link: "mailto:epikoni233@gmail.com"
+        },
+        {
+            name: "GitHub",
+            icon: "fa-github",
+            link: "https://github.com/Epikoni"
+        },
+        {
+            name: "Wechat",
+            icon: "fa-wexin",
+            link: "https://github.com/Epikoni"
+        },
+        {
+            name: "QQ",
+            icon: "fa-qq",
+            link: "https://wpa.qq.com/msgrd?v=3&uin=957239301&site=qq&menu=yes"
+        }
+      ],
         loadMore: {
             text: "了解更多",
             class: "lovexhj2"
