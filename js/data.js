@@ -20,8 +20,8 @@ export default {
         },
         {
             name: "Wechat",
-            icon: "fa-wexin",
-            link: "https://github.com/Epikoni"
+            icon: "fa-weixin",
+            link: "./images/Erweicaihong.png"
         },
         {
             name: "QQ",
