@@ -2,9 +2,9 @@ export default {
     index: {
         title: "你好，我是",
         me: [
-            "田琪扬",
-            "Web前端开发实习生",
-            "前端狂热粉"
+            "刘若男",
+            "游戏狂热粉丝",
+            "游戏开发设计师"
         ],
         bg: "./images/bg.jpg",
         subTitle: "即使前方的路看似绝境，也要有硬生生给自己开出一条路的勇气",
@@ -16,17 +16,17 @@ export default {
             {
                 name: "Email",
                 icon: "fa-envelope",
-                link: "mailto:mail@n0ts.cn"
+                link: "mailto:epikoni233@gmail.com"
             },
             {
-                name: "Gitee",
+                name: "GitHub",
                 icon: "fa-github",
-                link: "https://gitee.com/n0ts"
+                link: "https://github.com/Epikoni"
             },
             {
                 name: "QQ",
                 icon: "fa-qq",
-                link: "https://wpa.qq.com/msgrd?v=3&uin=1656071287&site=qq&menu=yes"
+                link: "https://wpa.qq.com/msgrd?v=3&uin=957239301&site=qq&menu=yes"
             }
         ],
         loadMore: {
@@ -38,36 +38,37 @@ export default {
         title: "关于我",
         laozi: {
             img: "./images/me.jpg",
-            content: "<span></span>我叫<b>田琪扬</b>，今年19岁，是岳阳职业技术学院的一名大二在读生，所学专业是<b>软件技术</b>；<br /><span></span>我个人对于网站开发我有着<b>浓厚的兴趣</b>，喜欢用学习到的知识去设计与编写一些独特的网站，毕竟兴趣才是我最好的老师。<br /><span></span>曾在<b>WEB省赛荣获三等奖</b>，获得过<b>国家励志奖学金</b>，在学校中也获得过<b>优秀青年志愿者</b>，<b>学习之星称号</b>，<b>优秀班委</b>等荣誉。"
+            content: "<span></span>我叫<b>刘若男</b>，今年21岁，是美国威斯康星麦迪逊大学的一名大四在读生，所学专业是<b>计算机科学</b>辅修<b>游戏设计</b>；<br /><span></span>我个人对于游戏设计开发有<b>浓厚的兴趣</b>，喜欢用学习到的知识去设计与开发一些游戏，喜欢通过游戏表达<b>自己的理念</b>。"
         },
         ability: [{
                 icon: "fa-html5",
-                title: "前端",
-                subTitle: "HTML，CSS，Js，Vue...",
+                title: "游戏设计",
+                subTitle: "MDA Framework, Gee's Learning Principles...",
                 color: "#ff4757",
                 bfb: "80%"
             },
             {
                 icon: "fa-code",
-                title: "后端",
-                subTitle: "ASP.NET，.NET Core，Node.js...",
+                title: "游戏开发",
+                subTitle: "RPG Maker, Bitsy, Twine, Unity...",
                 color: "#ffa502",
                 bfb: "80%"
             },
             {
-                icon: "fa-linux",
-                title: "Linux",
-                subTitle: "Nginx，Apache，基础操作...",
-                color: "#1e90ff",
-                bfb: "50%"
-            },
-            {
                 icon: "fa-photo",
                 title: "设计",
-                subTitle: "Photoshop，CorelDRAW...",
+                subTitle: "Photoshop，Premier, AfterEffects...",
                 color: "#2ed573",
                 bfb: "80%"
+            },
+            {
+                icon: "fa-linux",
+                title: "编程",
+                subTitle: "Java, C/C++, C#, Python...",
+                color: "#1e90ff",
+                bfb: "50%"
             }
+            
         ],
         loadMore: {
             text: "继续浏览",
