@@ -132,7 +132,7 @@ export default {
                 nb: [
                     "TensorFlow", "Convolutional Neural Networks", "Data Visualization", "Grad-CAM", "Python"
                 ],
-                url: "https://qliu227.github.io/CS639_FER/",
+                url: "Projects/CS639-gh-pages",
                 img: "./images/FACE.jpg",
                 content: `<h2>Project Type</h2>
                 <p>Paper and presentation in Computer Vision and AI</p>
