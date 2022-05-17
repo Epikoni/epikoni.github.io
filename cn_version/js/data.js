@@ -31,7 +31,7 @@ export default {
         {
             name: "英文",
             icon: "fa-language",
-            link: "www.epikoni.com"
+            link: "../index.html"
         }
       ],
         loadMore: {
