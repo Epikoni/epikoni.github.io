@@ -22,7 +22,7 @@ body {
     background: #f1f2f6;
 }
 
-#lovexhj {
+#method {
     height: 100%;
 }
 
@@ -389,7 +389,7 @@ body::-webkit-scrollbar-thumb {
     box-sizing: border-box;
 }
 
-.method3ContentBox:hover .lovexhj3ContentBoxText {
+.method3ContentBox:hover .method3ContentBoxText {
     transform: scale(1);
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -516,7 +516,7 @@ body::-webkit-scrollbar-thumb {
 
 /* 自适应 */
 @media(max-width:1400px) {
-    .lovexhj2 {
+    .method2 {
         height: 1200px;
     }
 
