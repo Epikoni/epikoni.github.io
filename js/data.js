@@ -171,7 +171,7 @@ export default {
                 name: "Learning in An Open World",
                 text: "Analysis of Zelda: Breath of the Wild using Gee's learning Principles ",
                 nb: [
-                    "Game Design", "Educational learning", "Game Experience"
+                    "Game Design", "Educational meaning", "Game Experience"
                 ],
                 url: "https://docs.google.com/document/d/1bDk6lm1CFCZk4OpGlQvwLiFKHj7SxS_Q/edit?usp=sharing&ouid=117446574999903310626&rtpof=true&sd=true",
                 img: "./images/ZELDA.jpg",
