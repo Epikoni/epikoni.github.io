@@ -171,7 +171,7 @@ export default {
         }
     },
     contact: {
-        title: "Contact ME",
+        title: "Contact Me",
         list: [{
                 name: "Email",
                 context: "epikoni233@gmail.com"
