@@ -84,7 +84,7 @@ export default {
                     "原创故事", "时光回溯", "保护环境", "战斗设计", "任务系统"
                 ],
                 url: "https://epikoni.itch.io/before-lost",
-                img: "./images/tucao1.png",
+                img: "./images/STONE.png",
                 content: `<h2>项目类型</h2>
                 <p>期末项目</p>
                 <h2>开发周期</h2>
@@ -111,15 +111,14 @@ export default {
                 <p>8、每个地图和任务反复测试，修改数值，修改BUG；</p>
                 <h2>项目预览</h2>
                 <ul>
-                    <li><img src="./images/tucao1.png"></li>
-                    <li><img src="./images/tucao2.png"></li>
-                    <li><img src="./images/tucao3.png"></li>
-                    <li><img src="./images/tucao4.png"></li>
+                    <li><img src="./images/STONE.png"></li>
+                    <li><img src="./images/EVENT.png"></li>
+                    <li><img src="./images/BATTLE.png"></li>
                 </ul>
                 <h2>项目职责</h2>
                 <p>1、任务设计；</p>
                 <p>2、编写事件，包含任务流程及战斗系统；</p>
-                <p>3、修复测试所发现的BUG；</p>`
+                <p>3、测试以及修复测试所发现的BUG；</p>`
             },
             {
                 name: "小黑屋商城",
