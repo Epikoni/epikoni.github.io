@@ -81,7 +81,7 @@ export default {
                 name: "Before Lost",
                 text: "俯视角，2-d，RPG，像素风游戏",
                 nb: [
-                    "原创故事", "时光回溯", "保护环境", "战斗设计", "任务系统"
+                    "原创故事", "时光回溯", "战斗设计", "任务系统", "手绘场景","Javascript"
                 ],
                 url: "https://epikoni.itch.io/before-lost",
                 img: "./images/STONE.PNG",
