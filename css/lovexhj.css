@@ -1,7 +1,7 @@
 /* 萌神手写体字体 */
 @font-face {
-    font-family: lovexhj;
-    src: url("../fonts/lovexhj.ttf");
+    font-family: font;
+    src: url("../fonts/font.ttf");
 }
 
 /* 全局样式 */
@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     outline: none;
-    font-family: lovexhj;
+    font-family: font;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-tap-highlight-color: transparent;
     /* 标题文字大小 */
@@ -46,10 +46,10 @@ body::-webkit-scrollbar-thumb {
 
 /* 统一过渡 */
 .loadMore,
-.lovexhj2ContentText li,
-.lovexhj3ContentBoxText,
-.lovexhj3ContentBox img,
-.lovexhj3ContentBtn {
+.method2ContentText li,
+.method3ContentBoxText,
+.method3ContentBox img,
+.method3ContentBtn {
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -102,18 +102,18 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* 主框架 */
-.lovexhj {
+.method {
     position: relative;
 }
 
 /* 首页 */
-.lovexhj1 {
+.method1 {
     height: 800px;
     overflow: hidden;
 }
 
 /* 首页内容 */
-.lovexhjContent {
+.methodContent {
     position: relative;
     left: 0;
     width: 50%;
@@ -125,7 +125,7 @@ body::-webkit-scrollbar-thumb {
     box-sizing: border-box;
 }
 
-.lovexhj1Content {
+.method1Content {
     position: absolute;
     box-shadow: 10px 0 30px black;
     z-index: 2;
@@ -173,20 +173,20 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* 首页背景 */
-.lovexhjBg {
+.methodBg {
     width: 50%;
     height: 100%;
     position: absolute;
 }
 
-.lovexhj1Bg {
+.method1Bg {
     right: 0;
     background: url("../images/bg.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
 
-.lovexhj2Bg {
+.method2Bg {
     left: 0;
     background: url("../images/bg2.jpg");
     background-size: cover;
@@ -194,37 +194,37 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* 内容 */
-.lovexhj2 {
+.method2 {
     height: 1000px;
 }
 
-.lovexhj2Content {
+.method2Content {
     width: 100%;
 }
 
-.lovexhj2Content>div,
-.lovexhj3Content>div {
+.method2Content>div,
+.method3Content>div {
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.lovexhj2ContentTitle {
+.method2ContentTitle {
     width: 100%;
     font-size: var(--titleSize);
     text-align: center;
     margin-bottom: 30px;
 }
 
-.lovexhj2ContentMe {
+.method2ContentMe {
     display: flex;
     justify-content: center;
     padding: 0 10%;
     margin-bottom: 30px;
 }
 
-.lovexhj2ContentImg {
+.method2ContentImg {
     width: 200px;
     height: 300px;
     min-width: 200px;
@@ -241,39 +241,39 @@ body::-webkit-scrollbar-thumb {
     -o-transform: rotate(2deg);
 }
 
-.lovexhj2ContentImg img {
+.method2ContentImg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.lovexhj2ContentText {
+.method2ContentText {
     font-size: var(--contextSize);
 }
 
-.lovexhj2ContentTextBox {
+.method2ContentTextBox {
     line-height: 2rem;
 }
 
-.lovexhj2ContentTextBox b {
+.method2ContentTextBox b {
     padding: 0 5px;
 }
 
-.lovexhj2ContentTextBox span {
+.method2ContentTextBox span {
     padding: 0 1rem;
 }
 
-.lovexhj2ContentTextBox span::after {
+.method2ContentTextBox span::after {
     content: '>';
 }
 
-.lovexhj2ContentText ul {
+.method2ContentText ul {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
 
-.lovexhj2ContentText li {
+.method2ContentText li {
     width: 100%;
     height: 150px;
     margin: 0 15px;
@@ -284,7 +284,7 @@ body::-webkit-scrollbar-thumb {
     box-shadow: rgba(50, 50, 93, 0.35) 0px 13px 27px -5px, rgba(0, 0, 0, 0.4) 0px 8px 16px -8px;
 }
 
-.lovexhj2ContentText li:hover {
+.method2ContentText li:hover {
     transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
@@ -293,7 +293,7 @@ body::-webkit-scrollbar-thumb {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 23px 27px -5px, rgba(0, 0, 0, 0.3) 0px 18px 16px -8px;
 }
 
-.lovexhj2ContentText li i {
+.method2ContentText li i {
     position: absolute;
     font-size: 5rem;
     color: rgba(128, 128, 128, .15);
@@ -301,20 +301,20 @@ body::-webkit-scrollbar-thumb {
     right: 10px;
 }
 
-.lovexhj2ContentText li span {
+.method2ContentText li span {
     font-size: 2rem;
 }
 
-.lovexhj2ContentText li p {
+.method2ContentText li p {
     font-size: var(--contextSize);
 }
 
-.lovexhj2ContentText li p:nth-child(4) {
+.method2ContentText li p:nth-child(4) {
     font-size: 1.1rem;
 }
 
 /* 项目介绍 */
-.lovexhj3 {
+.method3 {
     height: auto;
     background: white;
     border-radius: 200px 200px 0 0;
@@ -324,20 +324,20 @@ body::-webkit-scrollbar-thumb {
     -o-border-radius: 200px 200px 0 0;
 }
 
-.lovexhj3Content {
+.method3Content {
     width: 100%;
     height: auto;
 }
 
-.lovexhj3ContentList {
+.method3ContentList {
     width: 1000px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.lovexhj3ContentBox,
-.lovexhj3ContentBoxTc {
+.method3ContentBox,
+.method3ContentBoxTc {
     width: 300px;
     height: 400px;
     background: white;
@@ -349,22 +349,22 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
 }
 
-.lovexhj3ContentBox {
+.method3ContentBox {
     box-shadow: rgba(50, 50, 93, 0.35) 0px 13px 27px -5px, rgba(0, 0, 0, 0.4) 0px 8px 16px -8px;
 }
 
-.lovexhj3ContentBoxTc {
+.method3ContentBoxTc {
     height: 0 !important;
 }
 
-.lovexhj3ContentBox img {
+.method3ContentBox img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     position: absolute;
 }
 
-.lovexhj3ContentBox:hover img {
+.method3ContentBox:hover img {
     transform: scale(1.5) rotate(5deg);
     -webkit-transform: scale(1.5) rotate(5deg);
     -moz-transform: scale(1.5) rotate(5deg);
@@ -372,7 +372,7 @@ body::-webkit-scrollbar-thumb {
     -o-transform: scale(1.5) rotate(5deg);
 }
 
-.lovexhj3ContentBoxText {
+.method3ContentBoxText {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -389,7 +389,7 @@ body::-webkit-scrollbar-thumb {
     box-sizing: border-box;
 }
 
-.lovexhj3ContentBox:hover .lovexhj3ContentBoxText {
+.method3ContentBox:hover .lovexhj3ContentBoxText {
     transform: scale(1);
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -397,25 +397,25 @@ body::-webkit-scrollbar-thumb {
     -o-transform: scale(1);
 }
 
-.lovexhj3ContentTitle {
+.method3ContentTitle {
     font-size: 3rem;
 }
 
-.lovexhj3ContentText {
+.method3ContentText {
     font-size: var(--contextSize);
 }
 
-.lovexhj3ContentBoxText ul {
+.method3ContentBoxText ul {
     display: flex;
     flex-wrap: wrap;
     margin: 3px 0 10px;
 }
 
-.lovexhj3ContentBoxText li {
+.method3ContentBoxText li {
     margin-right: 10px;
 }
 
-.lovexhj3ContentBtn {
+.method3ContentBtn {
     display: inline-block;
     cursor: pointer;
     padding: 5px 30px 8px;
@@ -425,43 +425,43 @@ body::-webkit-scrollbar-thumb {
     margin-top: 20px;
 }
 
-.lovexhj3ContentBtn:hover {
+.method3ContentBtn:hover {
     color: white;
     box-shadow: inset 0 -100px 0 black;
 }
 
-.lovexhj3LoadMore {
+.method3LoadMore {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
 /* 联系我 */
-.lovexhj4 {
+.method4 {
     height: 800px;
 }
 
-.lovexhj4Content {
+.method4Content {
     left: 50%;
     flex-wrap: wrap;
 }
 
-.lovexhj4Bg {
+.method4Bg {
     left: 0;
     background: url("../images/bg.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
 
-.lovexhj4ItemTitle {
+.method4ItemTitle {
     font-size: 2rem;
 }
 
-.lovexhj4ItemContext {
+.method4ItemContext {
     font-size: 1.2rem;
 }
 
-.lovexhj4Content li {
+.method4Content li {
     margin: 20px 0;
 }
 
@@ -497,7 +497,7 @@ body::-webkit-scrollbar-thumb {
     font-weight: normal;
 }
 
-.el-dialog__body .lovexhj3ContentBtn {
+.el-dialog__body .method3ContentBtn {
     margin: 0;
     margin-bottom: 20px;
 }
@@ -520,22 +520,22 @@ body::-webkit-scrollbar-thumb {
         height: 1200px;
     }
 
-    .lovexhj2ContentText ul {
+    .method2ContentText ul {
         flex-wrap: wrap;
     }
 
-    .lovexhj2ContentText li {
+    .method2ContentText li {
         width: 46%;
         margin: 0 0 30px;
     }
 
-    .lovexhj2ContentMe {
+    .method2ContentMe {
         padding: 0 5%;
     }
 }
 
 @media(max-width:1070px) {
-    .lovexhj3 {
+    .method3 {
         border-radius: 150px 150px 0 0;
         -webkit-border-radius: 150px 150px 0 0;
         -moz-border-radius: 150px 150px 0 0;
@@ -543,7 +543,7 @@ body::-webkit-scrollbar-thumb {
         -o-border-radius: 150px 150px 0 0;
     }
 
-    .lovexhj3ContentList {
+    .method3ContentList {
         width: 660px;
         min-width: 660px;
     }
@@ -555,29 +555,29 @@ body::-webkit-scrollbar-thumb {
         --contextSize: 1.2rem;
     }
 
-    .lovexhj1Content {
+    .method1Content {
         padding: 40px;
     }
 
-    .lovexhj2ContentMe {
+    .method2ContentMe {
         padding: 0;
     }
 
-    .lovexhj2 {
+    .method2 {
         height: 1500px;
     }
 
-    .lovexhj2ContentMe {
+    .method2ContentMe {
         flex-wrap: wrap;
     }
 
-    .lovexhj2ContentImg {
+    .method2ContentImg {
         margin-bottom: 30px;
     }
 }
 
 @media(max-width: 778px) {
-    .lovexhj3 {
+    .method3 {
         border-radius: 100px 100px 0 0;
         -webkit-border-radius: 100px 100px 0 0;
         -moz-border-radius: 100px 100px 0 0;
@@ -585,12 +585,12 @@ body::-webkit-scrollbar-thumb {
         -o-border-radius: 100px 100px 0 0;
 }
 
-    .lovexhj3ContentList {
+    .method3ContentList {
         width: 300px;
         min-width: 300px;
     }
 
-    .lovexhj3ContentBoxText {
+    .method3ContentBoxText {
         transform: scale(1);
         -webkit-transform: scale(1);
         -moz-transform: scale(1);
@@ -600,17 +600,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media(max-width: 560px) {
-    .lovexhj1 {
+    .method1 {
         height: 700px;
     }
 
-    .lovexhj1Bg {
+    .method1Bg {
         width: 100%;
         height: 40%;
         top: 0;
     }
 
-    .lovexhj1Content {
+    .method1Content {
         bottom: 0;
         width: 100%;
         height: 60%;
@@ -620,25 +620,25 @@ body::-webkit-scrollbar-thumb {
         padding: 5px 30px 10px;
     }
 
-    .lovexhj2 {
+    .method2 {
         height: 1800px;
     }
 
-    .lovexhj2Content {
+    .method2Content {
         padding: 80px 40px;
     }
 
-    .lovexhj2ContentText li {
+    .method2ContentText li {
         width: 100%;
     }
 
-    .lovexhj4Content {
+    .method4Content {
         width: 65%;
         left: 30%;
         padding: 20px;
     }
 
-    .lovexhj4Bg {
+    .method4Bg {
         width: 35%;
     }
 
