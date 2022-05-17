@@ -1,13 +1,13 @@
 export default {
     index: {
-        title: "你好，我是",
+        title: "Hello, I am ",
         me: [
-            "刘若男",
-            "游戏狂热粉丝",
-            "游戏开发设计师"
+            "Shirley Liu",
+            "Crazy Gamer",
+            "Game Designer/Developer"
         ],
         bg: "./images/bg.jpg",
-        subTitle: "即使前方的路看似绝境，也要有硬生生给自己开出一条路的勇气",
+        subTitle: "Even if the road ahead looks desperate, you have to have the courage to drive a hard road for yourself",
         contact: [{
             name: "Email",
             icon: "fa-envelope",
@@ -30,40 +30,40 @@ export default {
         }
       ],
         loadMore: {
-            text: "了解更多",
+            text: "Learn more",
             class: "method"
         }
     },
     about: {
-        title: "关于我",
+        title: "About me",
         meme: {
             img: "./images/ME.PNG",
-            content: "<span></span>我叫<b>刘若男</b>，今年21岁，是美国威斯康星麦迪逊大学的一名大四在读生，所学专业是<b>计算机科学</b>辅修<b>游戏设计</b>；<br /><span></span>我个人对于游戏设计开发有<b>浓厚的兴趣</b>，喜欢用学习到的知识去设计与开发一些游戏，喜欢通过游戏表达<b>自己的理念</b>；<br /><span></span>有<b>团队合作经验，沟通能力强</b>；适应力强，能很快融入集体；上进心强，愿意不断学习充实自己。"
+            content: "<span></span>I am <b>Shirley</b>，21 years old，a senior in University of Wisconsin-Madison，major in<b>Computer Science</b>and minor in <b>Game Design</b>；<br /><span></span>I have a <b>strong interest</b> in game design and development, I like to use the knowledge I have learned to design and develop some games, and I like to <b>express my ideas through games</b>.；<br /><span></span>I am a <b>teamworker</b> and willing to <b>keep learn</b> new stuffs。"
         },
         ability: [{
                 icon: "fa-gamepad",
-                title: "游戏设计",
+                title: "Game Design",
                 subTitle: "MDA Framework, Gee's Learning Principles...",
                 color: "#ff4757",
                 bfb: "80%"
             },
             {
                 icon: "fa-desktop",
-                title: "游戏开发",
+                title: "Game Development",
                 subTitle: "RPG Maker, Bitsy, Twine, Unity...",
                 color: "#ffa502",
                 bfb: "80%"
             },
             {
                 icon: "fa-photo",
-                title: "设计",
+                title: "Design",
                 subTitle: "Photoshop，Premier, AfterEffects...",
                 color: "#2ed573",
                 bfb: "80%"
             },
             {
                 icon: "fa-code",
-                title: "编程",
+                title: "Code",
                 subTitle: "Java, C/C++, C#, Python...",
                 color: "#1e90ff",
                 bfb: "50%"
@@ -71,109 +71,109 @@ export default {
             
         ],
         loadMore: {
-            text: "继续浏览",
+            text: "Keep explore",
             class: "method3"
         }
     },
     project: {
-        title: "我的项目",
+        title: "My projects",
         list: [{
                 name: "Before Lost",
-                text: "俯视角，2-d，RPG，像素风游戏",
+                text: "top-down view，2-d，RPG，pixeled game",
                 nb: [
-                    "原创故事", "时光回溯", "战斗设计", "任务系统", "手绘场景","Javascript"
+                    "Original Story", "Time Travel", "Combat Design", "Missions", "Hand-draw","Javascript"
                 ],
                 url: "https://epikoni.itch.io/before-lost",
                 img: "./images/icon.png",
-                content: `<h2>项目类型</h2>
-                <p>游戏设计开发</p>
-                <h2>开发周期</h2>
-                <p>2022年1月20日 – 2022年5月12日，4人</p>
-                <h2>开发工具</h2>
+                content: `<h2>Project type</h2>
+                <p>Game design and development</p>
+                <h2>Working Period</h2>
+                <p>1/20/2022 – 5/12/2022，Group of 4</p>
+                <h2>Development Tool</h2>
                 <p>RPG Maker MV，GitHub，Javascript</p>
-                <h2>项目背景</h2>
-                <p>以环境保护为主题，考虑到目前工业化给树木和动物带来的危害，设计一个游戏。主角可以利用祖传的机器穿越时间回到过去，在世界还未毁灭前尽全力挽救。</p>
-                <h2>玩法介绍</h2>
-                <p>1、故事介绍：森林中的一座木屋里，主角从床上醒来，打开门发现外面着火了，河水里漂浮着动物尸体，地上逐渐出现裂缝。慌乱中，他想到爷爷告诉他有办法让时光倒流，
-                      于是他赶紧回家，找到了时光穿梭，穿越到两百年前。这个时候，人们才刚刚开始发展工业，砍伐了很多木材。消费急剧增加，地下矿藏被广泛开采和冶炼，导致森林砍伐、
-                      气候变暖和臭氧消耗。想到这一切将会带来的影响，他决心做一些改变世界的事情；</p>
-                <p>2、核心机制：跟随故事情节跨越地图完成任务目标；</p>
-                <p>3、动态玩法：收集任务物品，收集彩蛋物品（信件，面条等），战斗系统，技能、装备升级；</p>
-                <p>4、艺术风格：俯视角，像素风，回合制战斗；</p>
-                <h2>项目流程</h2>
-                <p>1、确定以RPG Maker MV为引擎；</p>
-                <p>2、以地图划分故事，每章节故事结合任务以及地图绘；</p>
-                <p>3、地图绘制，部分加入手绘图像以获得更好的地图呈现；</p>
-                <p>4、加入Events事件，包含NPC，地图互动物品；</p>
-                <p>5、引擎内置功能实现任务流程包含NPC对话等，部分利用Javascript；</p>
-                <p>6、编程回合制战斗系统，加入不同武器以及技能并调整数值；</p>
-                <p>7、加入不同视觉和音乐效果；</p>
-                <p>8、每个地图和任务反复测试，修改数值，修改BUG；</p>
-                <h2>项目预览</h2>
+                <h2>Project Background</h2>
+                <p>With the theme of environmental protection, design a game that takes into account the harm that current industrialization brings to trees and animals. The protagonist can use the ancestral machine to travel back in time and do his best to save the world before it is destroyed.</p>
+                <h2>Gameplay</h2>
+                <p>1、Story: In a wooden house in the forest, the protagonist wakes up from his bed and opens the door to find a fire outside, dead animals floating in the river and cracks gradually appearing on the ground. In a panic, he thinks of his grandfather telling him that there is a way to turn back the clock.
+                      So he rushed home, found a time warp, and traveled back two hundred years. At this time, people were just starting to develop industry and cut down a lot of wood. Consumption had increased dramatically, and underground mineral deposits were being extensively mined and smelted, leading to deforestation,
+                      climate warming and ozone depletion. Thinking of the impact all this would have, he resolved to do something to change the world.</p>
+                <p>2、Core mechanism: follow the storyline across the map to complete the mission objectives;</p>
+                <p>3、Dynamic: collect mission items, collect easter egg items (letters, noodles, etc.), battle system, skills, and equipment upgrades；</p>
+                <p>4、Art style: bird's-eye view, pixel style, turn-based combat;</p>
+                <h2>Project plan</h2>
+                <p>1、Determine the RPG Maker MV as the engine；</p>
+                <p>2、Dividing the story by maps, with each chapter of the story combined with quests as well as map drawing;</p>
+                <p>3、Map drawing, partly with hand-drawn images for better map presentation;</p>
+                <p>4、Add Events events, including NPCs, interactive items on the map;</p>
+                <p>5、The engine's built-in functions to implement quest flow including NPC dialogues, etc., partly using Javascript;</p>
+                <p>6、Program the turn-based combat system, add different weapons and skills and adjust the values;</p>
+                <p>7、Add different visual and sound effects;</p>
+                <p>8、Repeatedly testing each map and mission, modifying values and fixing bugs;</p>
+                <h2>Project preview</h2>
                 <ul>
                     <li><img src="./images/STONE.PNG"></li>
                     <li><img src="./images/EVENT.PNG"></li>
                     <li><img src="./images/BATTLE.PNG"></li>
                     <li><img src="./images/FACTOR.PNG"></li>
                 </ul>
-                <h2>项目职责</h2>
-                <p>1、任务设计；</p>
-                <p>2、编写事件，包含任务流程及战斗系统；</p>
-                <p>3、测试以及修复测试所发现的BUG；</p>`
+                <h2>Responsibility</h2>
+                <p>1、Mission Design;</p>
+                <p>2、Write events script, including mission flow and combat system;</p>
+                <p>3、Testing and debugging.</p>`
             },
             {
-                name: "人脸情绪识别(FER)",
-                text: "利用CNN实现人脸情绪识别，准确率约为66%",
+                name: "Facial Emotion Recognition using Deep CNN",
+                text: "Face emotion recognition using CNN with an accuracy of about 66%",
                 nb: [
-                    "TensorFlow", "卷积神经网络", "数据可视化", "梯度加权类激活图（Grad-CAM）", "Python"
+                    "TensorFlow", "Convolutional Neural Networks", "Data Visualization", "Grad-CAM", "Python"
                 ],
                 url: "https://github.com/Epikoni/CS639/tree/gh-pages",
                 img: "./images/FACE.PNG",
-                content: `<h2>项目类型</h2>
-                <p>计算机视觉+人工智能论文及演讲</p>
-                <h2>开发周期</h2>
-                <p>2021年8月26日 – 2021年12月21日，4人</p>
-                <h2>开发工具</h2>
+                content: `<h2>Project Type</h2>
+                <p>Paper and presentation in Computer Vision and AI</p>
+                <h2>Development Period</h2>
+                <p>8/26/2021 – 12/21/2021，Group of 4</p>
+                <h2>Development Tool</h2>
                 <p>Visual Studio, GitHub</p>
-                <h2>项目背景</h2>
-                <p>面部表情是人类重要的交流工具，通过面部表情，人们可以识别他人的心理状态，如快乐、愤怒、悲伤等。面部情绪识别 (FER) 是通过测量各种身体参数的变化来实现的，例如测量心率、眼睛活动、脑电图等，或者通过分析面部图像来实现。 
-                   而后者由于计算资源丰富且具有成本效益而受到欢迎。基于相机输入的 FER 研究可分为两组，常规方法和使用神经网络的方法。传统的 FER 方法基于手工设计的特征来识别面部情绪。 
-                   典型的过程包括检测区域，提取特征，然后使用预训练的分类器来识别面部情绪。随着大数据集的可用性，它已成为计算机视觉的通用方法。在已发表的研究中，Kim 等人提出了一个由CNN和长短期记忆（LSTM）组成的混合模型，其性能最高，准确率为78.61%。</p>
-                <h2>项目详情</h2>
-                <p>1、方法：Convolution, Activation, Pooling, Batch Normalization, Dropout；</p>
-                <p>2、数据库：The Facial Expression Recognition 2013 (FER-2013) database，包含28709 training样本和3589 validation样本；</p>
-                <p>3、结果：</p>
-                <p>&nbsp;&nbsp;3.1、不平衡数据：在 7 种情绪中，快乐情绪占比最高，约占总样本的 30%。厌恶情绪比较少见，仅占总样本的 3%；</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;使用 10 个 epoch 进行训练，并使用验证数据集评估其性能。训练好的 CNN 模型的整体准确率为 65%；</p>
-                <p>&nbsp;&nbsp;3.2、平衡数据：</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;3.2.1、Random undersampling method：通过imblearn API function RandomUnderSampler实现；</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;该模型需要约 40 个 epochs 才能汇流，最终准确率约为 40%，与使用原始图像的模型相比下降了 62.5%；</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;3.2.2、Random oversampling method：通过imblearn API function RandomOverSampler实现；</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;该模型需要 5 个 epochs 才能汇流，最终准确率约为60%；</p>
-                <p>4、使用增强的数据进行训练：随着每个 epoch 中的输入图像发生变化，60 个 epoch 的准确率接近 70%。</p>
-                <h2>项目预览</h2>
+                <h2>Project Motivation</h2>
+                <p>Facial expressions are an important communication tool for human beings. Through facial expressions, people can recognize the mental state of others, such as happiness, anger, sadness, etc. Facial emotion recognition (FER) is achieved by measuring changes in various body parameters, such as measuring heart rate, eye activity, EEG, etc., or by analyzing facial images. 
+                   The latter is popular due to its abundant computational resources and cost-effectiveness. FER studies based on camera inputs can be divided into two groups, conventional methods and methods using neural networks. Conventional FER methods are based on hand-designed features to recognize facial emotions. 
+                   The typical process involves detecting regions, extracting features, and then using a pre-trained classifier to recognize facial emotions. With the availability of large datasets, it has become a general approach for computer vision. In the published study, Kim et al. proposed a hybrid model consisting of CNN and long short-term memory (LSTM) with the highest performance and accuracy of 78.61%</p>
+                <h2>Project Details</h2>
+                <p>1、Methods：Convolution, Activation, Pooling, Batch Normalization, Dropout；</p>
+                <p>2、Database：The Facial Expression Recognition 2013 (FER-2013) database，包含28709 training样本和3589 validation样本；</p>
+                <p>3、Results：</p>
+                <p>&nbsp;&nbsp;3.1、Unbalanced data：Of the seven emotions, happy emotions accounted for the highest proportion, about 30% of the total sample. Disgusting emotions were relatively rare, accounting for only 3% of the total sample;</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;Training is performed using 10 epochs and performance is evaluated using a validation dataset. The overall accuracy of the trained CNN model is 65%;</p>
+                <p>&nbsp;&nbsp;3.2、Balanced data：</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;3.2.1、Random undersampling method：Achieved by imblearn API function RandomUnderSampler;</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The model requires about 40 epochs to converge, with a final accuracy of about 40%, which is a 62.5% drop compared to the model using the original images;</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;3.2.2、Random oversampling method：Achieved by imblearn API function RandomOverSampler;</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The model requires 5 epochs to converge, with a final accuracy of about 60%;</p>
+                <p>4、Training with augmented data: as the input image changes in each epoch, the accuracy is close to 70% for 60 epochs。</p>
+                <h2>Project preview</h2>
                 <ul>
                     <li><img src="./images/INTRO.PNG"></li>
                     <li><img src="./images/DATA1.PNG"></li>
                     <li><img src="./images/DATA2.PNG"></li>
                     <li><img src="./images/DATA3.PNG"></li>
                 </ul>
-                <h2>项目职责</h2>
-                <p>1、对现代FER方法调研；</p>
-                <p>2、利用开源方法实现数据可视化；</p>
-                <p>3、数据训练；</p>`,
+                <h2>Responsibility</h2>
+                <p>1、Research on modern FER methods;</p>
+                <p>2、Data visualization using open source methods;</p>
+                <p>3、Data Training.</p>`,
             }
         ],
-        listLoadMore: "查看",
+        listLoadMore: "View",
         loadMore: {
-            text: "继续浏览",
+            text: "Keep explore",
             class: "method4"
         }
     },
     contact: {
-        title: "联系我",
+        title: "Contact ME",
         list: [{
-                name: "邮箱",
+                name: "Email",
                 context: "epikoni233@gmail.com"
             },
             {
@@ -181,7 +181,7 @@ export default {
                 context: "https://github.com/Epikoni"
             },
             {
-                name: "微信",
+                name: "Wechat",
                 context: "h957239301"
             },
             {
