@@ -4,7 +4,7 @@ export default {
         me: [
             "Shirley Liu",
             "Crazy Gamer",
-            "Game Designer/Developer"
+            "Designer/Developer"
         ],
         bg: "./images/bg.jpg",
         subTitle: "Even if the road ahead looks desperate, you have to have the courage to drive a hard road for yourself",
@@ -122,7 +122,7 @@ export default {
                 <p>3、Testing and debugging.</p>`
             },
             {
-                name: "Facial Emotion Recognition using Deep CNN",
+                name: "Facial Emotion Recognition(Deep CNN)",
                 text: "Face emotion recognition using CNN with an accuracy of about 66%",
                 nb: [
                     "TensorFlow", "Convolutional Neural Networks", "Data Visualization", "Grad-CAM", "Python"
