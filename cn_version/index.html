@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简历-刘若男</title>
+    <meta name="keywords" content="关键词">
+    <meta name="description" content="介绍">
+    <link rel="icon" href="./icon.ico">
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcdn.net/ajax/libs/viewerjs/1.9.0/viewer.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcdn.net/ajax/libs/element-ui/2.15.1/theme-chalk/index.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/method.css">
+</head>
+
+<body>
+    <div id="method" v-if="method" v-cloak>
+        <!-- 首页 -->
+        <div class="method method1">
+            <!-- 内容 -->
+            <div class="methodContent method1Content">
+                <div>
+                    <div class="ContentTitle">
+                        <span>{{method.index.title}}</span>
+                        <span class="method1Type"></span>
+                    </div>
+                    <div class="ContentSubTitle">{{method.index.subTitle}}</div>
+                    <ul class="ContentContact">
+                        <li v-for="(item, index) in method.index.contact" :key="index">
+                            <a :href="item.link" target="_blank">
+                                <el-tooltip :content="item.name" placement="bottom" effect="light">
+                                    <i :class="'fa ' + item.icon"></i>
+                                </el-tooltip>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="method1LoadMore">
+                        <div class="loadMore" @click="scrollGoTo(method.index.loadMore.class)">
+                            {{method.index.loadMore.text}}</div>
+                    </div>
+                </div>
+            </div>
+            <!-- 壁纸 -->
+            <div class="methodBg method1Bg"></div>
+        </div>
+        <!-- 个人简介 -->
+        <div class="method method2">
+            <!-- 内容 -->
+            <div class="methodContent method2Content">
+                <div>
+                    <p class="method2ContentTitle">{{method.about.title}}</p>
+                    <div class="method2ContentMe">
+                        <div class="method2ContentImg">
+                            <img :src="method.about.meme.img" :alt="method.about.meme.img">
+                        </div>
+                        <div class="method2ContentText">
+                            <div v-html="method.about.meme.content" class="method2ContentTextBox"></div>
+                            <ul>
+                                <li v-for="(item, index) in method.about.ability"
+                                    :style="'border-top: 5px solid ' + item.color">
+                                    <i :class="'fa ' + item.icon "></i>
+                                    <span :style="'color:' + item.color">{{item.bfb}}</span>
+                                    <p>{{item.title}}</p>
+                                    <p>{{item.subTitle}}</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="method2LoadMore">
+                        <div class="loadMore" @click="scrollGoTo(method.about.loadMore.class)">
+                            {{method.about.loadMore.text}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 项目介绍 -->
+        <div class="method method3">
+            <div class="methodjContent method3Content">
+                <div>
+                    <p class="method2ContentTitle">{{method.project.title}}</p>
+                    <div class="method3ContentList">
+                        <div class="method3ContentBox" v-for="(item, index) in method.project.list" :key="index">
+                            <img :src="item.img" :alt="item.img">
+                            <div class="method3ContentBoxText">
+                                <div>
+                                    <p class="method3ContentTitle">{{item.name}}</p>
+                                    <ul>
+                                        <li v-for="(nb, index) in item.nb" :key="index">
+                                            {{nb}}
+                                            <span v-if="index != item.nb.length - 1">+</span>
+                                        </li>
+                                    </ul>
+                                    <p class="method3ContentText">{{item.text}}</p>
+                                    <div class="method3ContentBtn" @click="showProject(index)">
+                                        {{method.project.listLoadMore}}</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="method3ContentBoxTc"></div>
+                        <div class="method3ContentBoxTc"></div>
+                    </div>
+                    <div class="method3LoadMore">
+                        <div class="loadMore" @click="scrollGoTo(method.project.loadMore.class)">
+                            {{method.project.loadMore.text}}</div>
+                    </div>
+                </div>
+            </div>
+            <el-dialog :title="method.project.list[projectIndex].name" :visible.sync="projectDialog"
+                append-to-body="true" modal-append-to-body="true">
+                <a :href="method.project.list[projectIndex].url" class="method3ContentBtn" target="_blank">点我查看</a>
+                <div v-html="method.project.list[projectIndex].content"></div>
+            </el-dialog>
+        </div>
+        <!-- 联系我 -->
+        <div class="method method4">
+            <!-- 壁纸 -->
+            <div class="methodBg method4Bg"></div>
+            <!-- 内容 -->
+            <div class="methodContent method4Content">
+                <div>
+                    <p class="method2ContentTitle">{{method.contact.title}}</p>
+                    <ul>
+                        <li v-for="(item, index) in method.contact.list">
+                            <p class="method4ItemTitle">{{item.name}}</p>
+                            <p class="method4ItemContext">{{item.context}}</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- js 引用 -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/viewerjs/1.9.0/viewer.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.9/vue.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/element-ui/2.15.1/index.min.js"></script>
+    <script src="./js/method.js" type="module"></script>
+</body>
+
+</html>
