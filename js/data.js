@@ -43,7 +43,7 @@ export default {
         title: "About Me",
         meme: {
             img: "./images/ME.PNG",
-            content: "<span></span>I am <b>Shirley</b>，21 years old，a senior in University of Wisconsin-Madison，major in <b>Computer Science</b> and minor in <b>Game Design</b>；<br /><span></span>I have a <b>strong interest</b> in game design and development, I like to use the knowledge I have learned to design and develop some games, and I like to <b>express my ideas through games</b>.；<br /><span></span>I am a <b>teamworker</b> and willing to <b>keep learn</b> new stuffs."
+            content: "<span></span>I am <b>Shirley</b>，21 years old，a senior in University of Wisconsin-Madison，major in <b>Computer Science</b> and minor in <b>Game Design</b>；<br /><span></span>I have a <b>strong interest</b> in game design and development, I like to use the knowledge I have learned to design and develop some games, and I like to <b>express my ideas through games</b>；<br /><span></span>I am a <b>teamworker</b> and willing to <b>keep learn</b> new stuffs."
         },
         ability: [{
                 icon: "fa-gamepad",
