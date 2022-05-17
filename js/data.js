@@ -84,7 +84,7 @@ export default {
                     "原创故事", "时光回溯", "战斗设计", "任务系统", "手绘场景","Javascript"
                 ],
                 url: "https://epikoni.itch.io/before-lost",
-                img: "./images/STONE.PNG",
+                img: "./images/BATTLE.PNG",
                 content: `<h2>项目类型</h2>
                 <p>期末项目</p>
                 <h2>开发周期</h2>
