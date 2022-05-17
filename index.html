@@ -24,7 +24,7 @@
                 <div>
                     <div class="ContentTitle">
                         <span>{{method.index.title}}</span>
-                        <span class="method1Typet"></span>
+                        <span class="method1Type"></span>
                     </div>
                     <div class="ContentSubTitle">{{method.index.subTitle}}</div>
                     <ul class="ContentContact">
@@ -53,10 +53,10 @@
                     <p class="method2ContentTitle">{{method.about.title}}</p>
                     <div class="method2ContentMe">
                         <div class="method2ContentImg">
-                            <img :src="method.about.laozi.img" :alt="method.about.laozi.img">
+                            <img :src="method.about.meme.img" :alt="method.about.meme.img">
                         </div>
                         <div class="method2ContentText">
-                            <div v-html="method.about.me.content" class="method2ContentTextBox"></div>
+                            <div v-html="method.about.meme.content" class="method2ContentTextBox"></div>
                             <ul>
                                 <li v-for="(item, index) in method.about.ability"
                                     :style="'border-top: 5px solid ' + item.color">
