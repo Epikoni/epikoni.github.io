@@ -86,7 +86,7 @@ export default {
                 url: "https://epikoni.itch.io/before-lost",
                 img: "./images/icon.png",
                 content: `<h2>项目类型</h2>
-                <p>期末项目</p>
+                <p>游戏设计开发</p>
                 <h2>开发周期</h2>
                 <p>2022年1月20日 – 2022年5月12日，4人</p>
                 <h2>开发工具</h2>
@@ -130,7 +130,7 @@ export default {
                 url: "https://github.com/Epikoni/CS639/tree/gh-pages",
                 img: "./images/FACE.PNG",
                 content: `<h2>项目类型</h2>
-                <p>练手项目</p>
+                <p>计算机视觉+人工智能论文及演讲</p>
                 <h2>开发周期</h2>
                 <p>2021年8月26日 – 2021年12月21日，4人</p>
                 <h2>开发工具</h2>
