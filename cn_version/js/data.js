@@ -27,7 +27,8 @@ export default {
             name: "QQ",
             icon: "fa-qq",
             link: "https://wpa.qq.com/msgrd?v=3&uin=957239301&site=qq&menu=yes"
-        }，{
+        },
+        {
             name: "英文",
             icon: "fa-language",
             link: "www.epikoni.com"
