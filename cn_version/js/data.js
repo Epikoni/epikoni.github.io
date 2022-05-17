@@ -6,7 +6,7 @@ export default {
             "游戏狂热粉丝",
             "游戏开发设计师"
         ],
-        bg: "./images/bg.jpg",
+        bg: "../images/bg.jpg",
         subTitle: "即使前方的路看似绝境，也要有硬生生给自己开出一条路的勇气",
         contact: [{
             name: "Email",
@@ -21,7 +21,7 @@ export default {
         {
             name: "微信",
             icon: "fa-weixin",
-            link: "./images/Erweicaihong.png"
+            link: "../images/Erweicaihong.png"
         },
         {
             name: "QQ",
@@ -41,7 +41,7 @@ export default {
     about: {
         title: "关于我",
         meme: {
-            img: "./images/ME.PNG",
+            img: "../images/ME.PNG",
             content: "<span></span>我叫<b>刘若男</b>，今年21岁，是美国威斯康星麦迪逊大学的一名大四在读生，所学专业是<b>计算机科学</b>辅修<b>游戏设计</b>；<br /><span></span>我个人对于游戏设计开发有<b>浓厚的兴趣</b>，喜欢用学习到的知识去设计与开发一些游戏，喜欢通过游戏表达<b>自己的理念</b>；<br /><span></span>有<b>团队合作经验，沟通能力强</b>；适应力强，能很快融入集体；上进心强，愿意不断学习充实自己。"
         },
         ability: [{
@@ -88,7 +88,7 @@ export default {
                     "原创故事", "时光回溯", "战斗设计", "任务系统", "手绘场景","Javascript"
                 ],
                 url: "https://epikoni.itch.io/before-lost",
-                img: "./images/RPG.jpg",
+                img: "../images/RPG.jpg",
                 content: `<h2>项目类型</h2>
                 <p>游戏设计开发</p>
                 <h2>开发周期</h2>
@@ -115,10 +115,10 @@ export default {
                 <p>8、每个地图和任务反复测试，修改数值，修改BUG；</p>
                 <h2>项目预览</h2>
                 <ul>
-                    <li><img src="./images/STONE.PNG"></li>
-                    <li><img src="./images/EVENT.PNG"></li>
-                    <li><img src="./images/BATTLE.PNG"></li>
-                    <li><img src="./images/FACTOR.PNG"></li>
+                    <li><img src="../images/STONE.PNG"></li>
+                    <li><img src="../images/EVENT.PNG"></li>
+                    <li><img src="../images/BATTLE.PNG"></li>
+                    <li><img src="../images/FACTOR.PNG"></li>
                 </ul>
                 <h2>项目职责</h2>
                 <p>1、任务设计；</p>
@@ -157,10 +157,10 @@ export default {
                 <p>4、使用增强的数据进行训练：随着每个 epoch 中的输入图像发生变化，60 个 epoch 的准确率接近 70%。</p>
                 <h2>项目预览</h2>
                 <ul>
-                    <li><img src="./images/INTRO.PNG"></li>
-                    <li><img src="./images/DATA1.PNG"></li>
-                    <li><img src="./images/DATA2.PNG"></li>
-                    <li><img src="./images/DATA3.PNG"></li>
+                    <li><img src="../images/INTRO.PNG"></li>
+                    <li><img src="../images/DATA1.PNG"></li>
+                    <li><img src="../images/DATA2.PNG"></li>
+                    <li><img src="../images/DATA3.PNG"></li>
                 </ul>
                 <h2>项目职责</h2>
                 <p>1、对现代FER方法调研；</p>
@@ -173,7 +173,7 @@ export default {
                     "游戏设计", "教育意义", "游戏体验"
                 ],
                 url: "https://docs.google.com/document/d/1bDk6lm1CFCZk4OpGlQvwLiFKHj7SxS_Q/edit?usp=sharing&ouid=117446574999903310626&rtpof=true&sd=true",
-                img: "./images/ZELDA.jpg",
+                img: "../images/ZELDA.jpg",
                 content: `<h2>项目类型</h2>
                 <p>游戏设计论文</p>
                 <h2>开发周期</h2>
@@ -189,7 +189,7 @@ export default {
                 <p>4、游戏重构: 增加更多的战斗技能，增加大型怪物的种类</p>`
             },{
                 name: "持续更新...",
-                img: "./images/MORE.png"
+                img: "../images/MORE.png"
             }
         ],
         listLoadMore: "查看",
