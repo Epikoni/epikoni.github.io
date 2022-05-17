@@ -143,13 +143,13 @@ export default {
                 <p>1、方法：Convolution, Activation, Pooling, Batch Normalization, Dropout；</p>
                 <p>2、数据库：The Facial Expression Recognition 2013 (FER-2013) database，包含28709 training样本和3589 validation样本；</p>
                 <p>3、结果：；</p>
-                <p><span></span>3.1、不平衡数据：在 7 种情绪中，快乐情绪占比最高，约占总样本的 30%。厌恶情绪比较少见，仅占总样本的 3%；</p>
-                <p>	使用 10 个 epoch 进行训练，并使用验证数据集评估其性能。训练好的 CNN 模型的整体准确率为 65%；</p>
-                <p><span></span>3.2、平衡数据：</p>
-                <p><span></span>3.2.1、Random undersampling method：通过imblearn API function RandomUnderSampler实现；</p>
-                <p>该模型需要约 40 个 epochs 才能汇流，最终准确率约为 40%，与使用原始图像的模型相比下降了 62.5%。；</p>
-                <p><span></span>3.2.2、Random oversampling method：通过imblearn API function RandomOverSampler实现；</p>
-                <p>该模型需要 5 个 epochs 才能汇流，最终准确率约为60%。。；</p>
+                <p>&nbsp3.1、不平衡数据：在 7 种情绪中，快乐情绪占比最高，约占总样本的 30%。厌恶情绪比较少见，仅占总样本的 3%；</p>
+                <p>&nbsp&nbsp使用 10 个 epoch 进行训练，并使用验证数据集评估其性能。训练好的 CNN 模型的整体准确率为 65%；</p>
+                <p>&nbsp3.2、平衡数据：</p>
+                <p>&nbsp&nbsp3.2.1、Random undersampling method：通过imblearn API function RandomUnderSampler实现；</p>
+                <p>&nbsp&nbsp&nbsp该模型需要约 40 个 epochs 才能汇流，最终准确率约为 40%，与使用原始图像的模型相比下降了 62.5%；</p>
+                <p>&nbsp&nbsp3.2.2、Random oversampling method：通过imblearn API function RandomOverSampler实现；</p>
+                <p>&nbsp&nbsp&nbsp该模型需要 5 个 epochs 才能汇流，最终准确率约为60%；</p>
                 <p>4、使用增强的数据进行训练：随着每个 epoch 中的输入图像发生变化，60 个 epoch 的准确率接近 70%。</p>
                 <h2>项目预览</h2>
                 <ul>
