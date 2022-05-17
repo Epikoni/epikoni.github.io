@@ -169,7 +169,7 @@ export default {
         title: "联系我",
         list: [{
                 name: "邮箱",
-                context: "epikoni233#gmail.com"
+                context: "epikoni233@gmail.com"
             },
             {
                 name: "GitHub",
