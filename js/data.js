@@ -3,7 +3,7 @@ export default {
         title: "Hello, I am ",
         me: [
             "Shirley Liu",
-            "Crazy Gamer",
+            "A Crazy Gamer",
             "Designer/Developer"
         ],
         bg: "./images/bg.jpg",
@@ -38,7 +38,7 @@ export default {
         title: "About me",
         meme: {
             img: "./images/ME.PNG",
-            content: "<span></span>I am <b>Shirley</b>，21 years old，a senior in University of Wisconsin-Madison，major in<b>Computer Science</b>and minor in <b>Game Design</b>；<br /><span></span>I have a <b>strong interest</b> in game design and development, I like to use the knowledge I have learned to design and develop some games, and I like to <b>express my ideas through games</b>.；<br /><span></span>I am a <b>teamworker</b> and willing to <b>keep learn</b> new stuffs。"
+            content: "<span></span>I am <b>Shirley</b>，21 years old，a senior in University of Wisconsin-Madison，major in <b>Computer Science</b> and minor in <b>Game Design</b>；<br /><span></span>I have a <b>strong interest</b> in game design and development, I like to use the knowledge I have learned to design and develop some games, and I like to <b>express my ideas through games</b>.；<br /><span></span>I am a <b>teamworker</b> and willing to <b>keep learn</b> new stuffs."
         },
         ability: [{
                 icon: "fa-gamepad",
@@ -140,17 +140,17 @@ export default {
                    The latter is popular due to its abundant computational resources and cost-effectiveness. FER studies based on camera inputs can be divided into two groups, conventional methods and methods using neural networks. Conventional FER methods are based on hand-designed features to recognize facial emotions. 
                    The typical process involves detecting regions, extracting features, and then using a pre-trained classifier to recognize facial emotions. With the availability of large datasets, it has become a general approach for computer vision. In the published study, Kim et al. proposed a hybrid model consisting of CNN and long short-term memory (LSTM) with the highest performance and accuracy of 78.61%</p>
                 <h2>Project Details</h2>
-                <p>1、Methods：Convolution, Activation, Pooling, Batch Normalization, Dropout；</p>
-                <p>2、Database：The Facial Expression Recognition 2013 (FER-2013) database，包含28709 training样本和3589 validation样本；</p>
+                <p>1、Methods：Convolution, Activation, Pooling, Batch Normalization, Dropout;</p>
+                <p>2、Database：The Facial Expression Recognition 2013 (FER-2013) database，inlcuding 28709 training samples and 3589 validation samples;</p>
                 <p>3、Results：</p>
                 <p>&nbsp;&nbsp;3.1、Unbalanced data：Of the seven emotions, happy emotions accounted for the highest proportion, about 30% of the total sample. Disgusting emotions were relatively rare, accounting for only 3% of the total sample;</p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;Training is performed using 10 epochs and performance is evaluated using a validation dataset. The overall accuracy of the trained CNN model is 65%;</p>
                 <p>&nbsp;&nbsp;3.2、Balanced data：</p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;3.2.1、Random undersampling method：Achieved by imblearn API function RandomUnderSampler;</p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The model requires about 40 epochs to converge, with a final accuracy of about 40%, which is a 62.5% drop compared to the model using the original images;</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The model requires about 40 epochs to converge, with an accuracy of about 40%, which is a 62.5% drop compared to the model using the original images;</p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;3.2.2、Random oversampling method：Achieved by imblearn API function RandomOverSampler;</p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The model requires 5 epochs to converge, with a final accuracy of about 60%;</p>
-                <p>4、Training with augmented data: as the input image changes in each epoch, the accuracy is close to 70% for 60 epochs。</p>
+                <p>4、Training with augmented data: as the input image changes in each epoch, the accuracy is close to 70% for 60 epochs.</p>
                 <h2>Project preview</h2>
                 <ul>
                     <li><img src="./images/INTRO.PNG"></li>
