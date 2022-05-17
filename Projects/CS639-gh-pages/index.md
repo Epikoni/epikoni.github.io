@@ -4,7 +4,7 @@ Team members\
 Shanchao Liang (sliang53@wisc.edu), Zhaoyang Li (zli2344@wisc.edu) <br>
 Qitong Liu (qliu227@wisc.edu), Shirley Liu (rliu326@wisc.edu) <br>
 
-Link for presentation: https://github.com/epikoni/github.io/CS639-gh-pages/presentation/CS639_FER.pptx
+Link for presentation: https://github.com/Epikoni/epikoni.github.io/blob/main/Projects/CS639-gh-pages/presentation/CS639_FER.pptx
 
 
 ## 1. Motivation
