@@ -114,6 +114,7 @@ export default {
                     <li><img src="./images/STONE.png"></li>
                     <li><img src="./images/EVENT.png"></li>
                     <li><img src="./images/BATTLE.png"></li>
+                    <li><img src="./images/FACTOR.png"></li>
                 </ul>
                 <h2>项目职责</h2>
                 <p>1、任务设计；</p>
@@ -121,43 +122,41 @@ export default {
                 <p>3、测试以及修复测试所发现的BUG；</p>`
             },
             {
-                name: "小黑屋商城",
-                text: "类似于淘宝，实现了电商该有的功能",
+                name: "人脸情绪识别(FER)",
+                text: "利用CNN实现人脸情绪识别，准确率约为66%",
                 nb: [
-                    "Vue", "ElementUI", "MinitUI", "Redis", "SSM", "JAVA", "Mysql"
+                    "TensorFlow", "卷积神经网络", "数据可视化", "梯度加权类激活图（Grad-CAM）", "Python"
                 ],
-                url: "https://gitee.com/lu_chengwei/pc/",
+                url: "https://github.com/Epikoni/CS639/tree/gh-pages",
                 img: "./images/bg.jpg",
                 content: `<h2>项目类型</h2>
                 <p>练手项目</p>
                 <h2>开发周期</h2>
-                <p>2020年11月2日 – 2020年12月1日，3人/29天</p>
+                <p>2021年8月26日 – 2021年12月21日，4人</p>
                 <h2>开发工具</h2>
-                <p>IDEA、Visual Code、MySQL、Redis、Git、Postman</p>
+                <p>Visual Studio, GitHub</p>
                 <h2>项目背景</h2>
-                <p>小黑屋商城是一个综合性的B2C平台，类似京东商城、天猫商城。会员可以在商城浏览商品、下订单，以及参加各种活动。管理员、运营可以在平台后台管理系统中管理商品、订单、会员等。</p>
-                <h2>模块介绍</h2>
-                <p>1、	基本：登陆注册、找回密码、验证码；</p>
-                <p>2、	首页：轮播图热点展示、商品分类展示、商品展示；</p>
-                <p>3、	商品详情：图片轮流展示、图片放大镜、商品信息展示、打折与原价展示、添加购物车与购买、评论分类展示、二维码分享、热销展示；</p>
-                <p>4、	购物车：购物车商品展示、数量修改、商品类型修改、批量管理与购买、删除购物车；</p>
-                <p>5、	支付：充值余额、支付宝支付、支付成功/失败展示；</p>
-                <p>6、	用户：个人信息管理、地址选择、订单管理、购物车管理、余额管理；</p>
-                <h2>项目技术</h2>
-                <p>1.	前端分为 PC 与 Mobile 两个客户端，基于 Vue、ElementUI、Mint UI 编写；</p>
-                <p>2.	后端采用 Java、SSM 编写 RESTFul API 风格接口；</p>
-                <p>3.	前端资源全部采用 lazy-load 懒加载，并且存储在阿里云OOS进行调用；</p>
-                <p>4.	图片验证码由后端生成返回Base64并在前端展示，手机验证码则为阿里云短信服务，验证缓存统一放在Redis进行暂存；</p>
-                <p>5.	二维码生成采用 QRCode 根据链接进行生成并压缩；</p>
-                <p>6.	充值系统基于支付宝沙箱程序模拟真实的支付宝支付验证付款等；</p>
-                <p>7.	登录验证采用 JWT 授权，请求需要登录的接口需要提交 Token 才能通过，否则登陆过期；</p>
-                <p>8.	Mobile 端采用瀑布流布局来展示商品；</p>
+                <p>面部表情是人类重要的交流工具，通过面部表情，人们可以识别他人的心理状态，如快乐、愤怒、悲伤等。面部情绪识别 (FER) 是通过测量各种身体参数的变化来实现的，例如测量心率、眼睛活动、脑电图等，或者通过分析面部图像来实现。 
+                   而后者由于计算资源丰富且具有成本效益而受到欢迎。基于相机输入的 FER 研究可分为两组，常规方法和使用神经网络的方法。传统的 FER 方法基于手工设计的特征来识别面部情绪。 
+                   典型的过程包括检测区域，提取特征，然后使用预训练的分类器来识别面部情绪。随着大数据集的可用性，它已成为计算机视觉的通用方法。在已发表的研究中，Kim 等人提出了一个由CNN和长短期记忆（LSTM）组成的混合模型，其性能最高，准确率为78.61%。</p>
+                <h2>项目详情</h2>
+                <p>1、	方法：Convolution, Activation, Pooling, Batch Normalization, Dropout；</p>
+                <p>2、	数据库：The Facial Expression Recognition 2013 (FER-2013) database，包含28709 training样本和3589 validation样本；</p>
+                <p>3、	结果：；</p>
+                <p>	    3.1、不平衡数据：在 7 种情绪中，快乐情绪占比最高，约占总样本的 30%。厌恶情绪比较少见，仅占总样本的 3%；</p>
+                <p>	        使用 10 个 epoch 进行训练，并使用验证数据集评估其性能。训练好的 CNN 模型的整体准确率为 65%；</p>
+                <p>     3.2、平衡数据：</p>
+                <p>	        3.2.1、Random undersampling method：通过imblearn API function RandomUnderSampler实现；</p>
+                <p>	        该模型需要约 40 个 epochs 才能汇流，最终准确率约为 40%，与使用原始图像的模型相比下降了 62.5%。；</p>
+                <p>	        3.2.2、Random oversampling method：通过imblearn API function RandomOverSampler实现；</p>
+                <p>	        该模型需要 5 个 epochs 才能汇流，最终准确率约为60%。。；</p>
+                <p>4、   使用增强的数据进行训练：随着每个 epoch 中的输入图像发生变化，60 个 epoch 的准确率接近 70%。</p>
                 <h2>项目预览</h2>
                 <p>暂无</p>
                 <h2>项目职责</h2>
-                <p>1、前端功能开发、页面设计；</p>
-                <p>2、支付宝支付对接；</p>
-                <p>3、Debug测试并修复；</p>`,
+                <p>1、对现代FER方法调研；</p>
+                <p>2、利用开源方法实现数据可视化；</p>
+                <p>3、数据训练；</p>`,
             }
         ],
         listLoadMore: "查看",
