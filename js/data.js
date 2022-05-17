@@ -84,7 +84,7 @@ export default {
                     "Original Story", "Time Travel", "Combat Design", "Missions", "Hand-draw","Javascript"
                 ],
                 url: "https://epikoni.itch.io/before-lost",
-                img: "./images/icon.png",
+                img: "./images/RPG.jpg",
                 content: `<h2>Project type</h2>
                 <p>Game design and development</p>
                 <h2>Working Period</h2>
@@ -127,8 +127,8 @@ export default {
                 nb: [
                     "TensorFlow", "Convolutional Neural Networks", "Data Visualization", "Grad-CAM", "Python"
                 ],
-                url: "https://github.com/Epikoni/CS639/tree/gh-pages",
-                img: "./images/FACE.PNG",
+                url: "https://qliu227.github.io/CS639_FER/",
+                img: "./images/FACE.jpg",
                 content: `<h2>Project Type</h2>
                 <p>Paper and presentation in Computer Vision and AI</p>
                 <h2>Development Period</h2>
