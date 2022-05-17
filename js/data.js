@@ -31,7 +31,7 @@ export default {
         {
             name: "中文",
             icon: "fa-language",
-            link: "www.en.epikoni.com"
+            link: "cn_version"
         }
       ],
         loadMore: {
