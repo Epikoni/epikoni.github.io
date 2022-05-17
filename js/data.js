@@ -168,18 +168,16 @@ export default {
                 nb: [
                     "Game Design", "Educational learning", "Game Experience"
                 ],
-                url: "https://github.com/Epikoni/CS639/tree/gh-pages",
-                img: "./images/FACE.PNG",
+                url: "https://docs.google.com/document/d/1bDk6lm1CFCZk4OpGlQvwLiFKHj7SxS_Q/edit?usp=sharing&ouid=117446574999903310626&rtpof=true&sd=true",
+                img: "./images/ZELDA.jpg",
                 content: `<h2>Project Type</h2>
-                <p>Paper and presentation in Computer Vision and AI</p>
+                <p>Paper in Game Design</p>
                 <h2>Development Period</h2>
-                <p>8/26/2021 – 12/21/2021，Group of 4</p>
-                <h2>Development Tool</h2>
-                <p>Visual Studio, GitHub</p>
+                <p>8/26/2021 – 12/21/2021</p>
                 <h2>Project Motivation</h2>
-                <p>Facial expressions are an important communication tool for human beings. Through facial expressions, people can recognize the mental state of others, such as happiness, anger, sadness, etc. Facial emotion recognition (FER) is achieved by measuring changes in various body parameters, such as measuring heart rate, eye activity, EEG, etc., or by analyzing facial images. 
-                   The latter is popular due to its abundant computational resources and cost-effectiveness. FER studies based on camera inputs can be divided into two groups, conventional methods and methods using neural networks. Conventional FER methods are based on hand-designed features to recognize facial emotions. 
-                   The typical process involves detecting regions, extracting features, and then using a pre-trained classifier to recognize facial emotions. With the availability of large datasets, it has become a general approach for computer vision. In the published study, Kim et al. proposed a hybrid model consisting of CNN and long short-term memory (LSTM) with the highest performance and accuracy of 78.61%</p>
+                <p>This paper uses Gee’s learning principles manipulation and distributed knowledge and cycle of expertise to demonstrate why 
+                Zelda is a good video game and how this game can teach players how to play. Then I will support my thesis by referring the article 
+                “Play that can Do Good” and Brown’s book Videogames and Education.</p>
                 <h2>Project Details</h2>
                 <p>1、Methods：Convolution, Activation, Pooling, Batch Normalization, Dropout;</p>
                 <p>2、Database：The Facial Expression Recognition 2013 (FER-2013) database，inlcuding 28709 training samples and 3589 validation samples;</p>
