@@ -7,7 +7,7 @@ export default {
             "Designer/Developer"
         ],
         bg: "./images/bg.jpg",
-        subTitle: "Even if the road ahead looks desperate, you have to have the courage to drive a hard road for yourself",
+        subTitle: "Even if the road ahead looks desperate, you have to have the courage to drive a hard road for yourself.",
         contact: [{
             name: "Email",
             icon: "fa-envelope",
@@ -27,6 +27,11 @@ export default {
             name: "QQ",
             icon: "fa-qq",
             link: "https://wpa.qq.com/msgrd?v=3&uin=957239301&site=qq&menu=yes"
+        },
+        {
+            name: "中文",
+            icon: "fa-language",
+            link: "www.en.epikoni.com"
         }
       ],
         loadMore: {
@@ -185,6 +190,9 @@ export default {
                 <p>2、Adam Eichenbaum, Daphne Bavelier and C. Shawn Green：Creating an environment that encourages users to invest substantial amounts of time in learning and more hours spent on a task means more learning, and video game encourages players to put time in tasks;</p>
                 <p>3、Harry J. Brown: Adventure games invite the player to inhabit an imaginary world and, in playing the game, ‘to enact an understanding of that world;</p>
                 <p>4、Game Redesign: Add more combat skills and add variety of large monsters</p>`
+            },{
+                name: "More is coming...",
+                img: "./images/MORE.png"
             }
         ],
         listLoadMore: "View",
