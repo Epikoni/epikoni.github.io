@@ -30,12 +30,12 @@ export default {
         }
       ],
         loadMore: {
-            text: "Learn more",
-            class: "method"
+            text: "Learn More",
+            class: "method2"
         }
     },
     about: {
-        title: "About me",
+        title: "About Me",
         meme: {
             img: "./images/ME.PNG",
             content: "<span></span>I am <b>Shirley</b>，21 years old，a senior in University of Wisconsin-Madison，major in <b>Computer Science</b> and minor in <b>Game Design</b>；<br /><span></span>I have a <b>strong interest</b> in game design and development, I like to use the knowledge I have learned to design and develop some games, and I like to <b>express my ideas through games</b>.；<br /><span></span>I am a <b>teamworker</b> and willing to <b>keep learn</b> new stuffs."
@@ -71,12 +71,12 @@ export default {
             
         ],
         loadMore: {
-            text: "Keep explore",
+            text: "Keep Explore",
             class: "method3"
         }
     },
     project: {
-        title: "My projects",
+        title: "My Projects",
         list: [{
                 name: "Before Lost",
                 text: "top-down view，2-d，RPG，pixeled game",
@@ -162,11 +162,45 @@ export default {
                 <p>1、Research on modern FER methods;</p>
                 <p>2、Data visualization using open source methods;</p>
                 <p>3、Data Training.</p>`,
+            },{
+                name: "Learning in An Open World",
+                text: "Analysis of Zelda: Breath of the Wild using Gee's learning Principles ",
+                nb: [
+                    "Game Design", "Educational learning", "Game Experience"
+                ],
+                url: "https://github.com/Epikoni/CS639/tree/gh-pages",
+                img: "./images/FACE.PNG",
+                content: `<h2>Project Type</h2>
+                <p>Paper and presentation in Computer Vision and AI</p>
+                <h2>Development Period</h2>
+                <p>8/26/2021 – 12/21/2021，Group of 4</p>
+                <h2>Development Tool</h2>
+                <p>Visual Studio, GitHub</p>
+                <h2>Project Motivation</h2>
+                <p>Facial expressions are an important communication tool for human beings. Through facial expressions, people can recognize the mental state of others, such as happiness, anger, sadness, etc. Facial emotion recognition (FER) is achieved by measuring changes in various body parameters, such as measuring heart rate, eye activity, EEG, etc., or by analyzing facial images. 
+                   The latter is popular due to its abundant computational resources and cost-effectiveness. FER studies based on camera inputs can be divided into two groups, conventional methods and methods using neural networks. Conventional FER methods are based on hand-designed features to recognize facial emotions. 
+                   The typical process involves detecting regions, extracting features, and then using a pre-trained classifier to recognize facial emotions. With the availability of large datasets, it has become a general approach for computer vision. In the published study, Kim et al. proposed a hybrid model consisting of CNN and long short-term memory (LSTM) with the highest performance and accuracy of 78.61%</p>
+                <h2>Project Details</h2>
+                <p>1、Methods：Convolution, Activation, Pooling, Batch Normalization, Dropout;</p>
+                <p>2、Database：The Facial Expression Recognition 2013 (FER-2013) database，inlcuding 28709 training samples and 3589 validation samples;</p>
+                <p>3、Results：</p>
+                <p>4、Training with augmented data: as the input image changes in each epoch, the accuracy is close to 70% for 60 epochs.</p>
+                <h2>Project preview</h2>
+                <ul>
+                    <li><img src="./images/INTRO.PNG"></li>
+                    <li><img src="./images/DATA1.PNG"></li>
+                    <li><img src="./images/DATA2.PNG"></li>
+                    <li><img src="./images/DATA3.PNG"></li>
+                </ul>
+                <h2>Responsibility</h2>
+                <p>1、Research on modern FER methods;</p>
+                <p>2、Data visualization using open source methods;</p>
+                <p>3、Data Training.</p>`,
             }
         ],
         listLoadMore: "View",
         loadMore: {
-            text: "Keep explore",
+            text: "Keep Explore",
             class: "method4"
         }
     },
