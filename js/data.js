@@ -122,7 +122,7 @@ export default {
                 <p>3、Testing and debugging.</p>`
             },
             {
-                name: "Facial Emotion Recognition(Deep CNN)",
+                name: "Facial Emotion Recognition",
                 text: "Face emotion recognition using CNN with an accuracy of about 66%",
                 nb: [
                     "TensorFlow", "Convolutional Neural Networks", "Data Visualization", "Grad-CAM", "Python"
