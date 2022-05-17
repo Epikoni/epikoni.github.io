@@ -72,7 +72,7 @@ export default {
         ],
         loadMore: {
             text: "继续浏览",
-            class: "lovexhj3"
+            class: "method3"
         }
     },
     project: {
@@ -167,7 +167,7 @@ export default {
         listLoadMore: "查看",
         loadMore: {
             text: "继续浏览",
-            class: "lovexhj4"
+            class: "method4"
         }
     },
     contact: {
