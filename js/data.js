@@ -84,7 +84,7 @@ export default {
                     "原创故事", "时光回溯", "保护环境", "战斗设计", "任务系统"
                 ],
                 url: "https://epikoni.itch.io/before-lost",
-                img: "./images/STONE.png",
+                img: "./images/STONE.PNG",
                 content: `<h2>项目类型</h2>
                 <p>期末项目</p>
                 <h2>开发周期</h2>
@@ -111,10 +111,10 @@ export default {
                 <p>8、每个地图和任务反复测试，修改数值，修改BUG；</p>
                 <h2>项目预览</h2>
                 <ul>
-                    <li><img src="./images/STONE.png"></li>
-                    <li><img src="./images/EVENT.png"></li>
-                    <li><img src="./images/BATTLE.png"></li>
-                    <li><img src="./images/FACTOR.png"></li>
+                    <li><img src="./images/STONE.PNG"></li>
+                    <li><img src="./images/EVENT.PNG"></li>
+                    <li><img src="./images/BATTLE.PNG"></li>
+                    <li><img src="./images/FACTOR.PNG"></li>
                 </ul>
                 <h2>项目职责</h2>
                 <p>1、任务设计；</p>
@@ -128,7 +128,7 @@ export default {
                     "TensorFlow", "卷积神经网络", "数据可视化", "梯度加权类激活图（Grad-CAM）", "Python"
                 ],
                 url: "https://github.com/Epikoni/CS639/tree/gh-pages",
-                img: "./images/bg.jpg",
+                img: "./images/FACE.PNG",
                 content: `<h2>项目类型</h2>
                 <p>练手项目</p>
                 <h2>开发周期</h2>
@@ -152,7 +152,12 @@ export default {
                 <p>	        该模型需要 5 个 epochs 才能汇流，最终准确率约为60%。。；</p>
                 <p>4、   使用增强的数据进行训练：随着每个 epoch 中的输入图像发生变化，60 个 epoch 的准确率接近 70%。</p>
                 <h2>项目预览</h2>
-                <p>暂无</p>
+                <ul>
+                    <li><img src="./images/INTRO.PNG"></li>
+                    <li><img src="./images/DATA1.PNG"></li>
+                    <li><img src="./images/DATA2.PNG"></li>
+                    <li><img src="./images/DATA3.PNG"></li>
+                </ul>
                 <h2>项目职责</h2>
                 <p>1、对现代FER方法调研；</p>
                 <p>2、利用开源方法实现数据可视化；</p>
