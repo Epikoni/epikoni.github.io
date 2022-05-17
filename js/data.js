@@ -162,6 +162,29 @@ export default {
                 <p>1、Research on modern FER methods;</p>
                 <p>2、Data visualization using open source methods;</p>
                 <p>3、Data Training.</p>`,
+            },{
+                name: "Learning in An Open World",
+                text: "Analysis of Zelda: Breath of the Wild using Gee's learning Principles ",
+                nb: [
+                    "Game Design", "Educational learning", "Game Experience"
+                ],
+                url: "https://docs.google.com/document/d/1bDk6lm1CFCZk4OpGlQvwLiFKHj7SxS_Q/edit?usp=sharing&ouid=117446574999903310626&rtpof=true&sd=true",
+                img: "./images/ZELDA.jpg",
+                content: `<h2>Project Type</h2>
+                <p>Paper in Game Design</p>
+                <h2>Development Period</h2>
+                <p>8/26/2021 – 12/21/2021</p>
+                <h2>Project Abstract</h2>
+                <p>In this paper, I will use the Legend of Zelda: Breath of the Wild as my topic game. It is an open world action-adventure game jointly developed 
+                by Monolith Soft and produced by Nintendo. The protagonist Link wakes up in the underground ruins on Hyrule land, chasing the incredible sounds and 
+                embarking on an adventure. I will use Gee’s learning principles manipulation and distributed knowledge and cycle of expertise to demonstrate why 
+                Zelda is a good video game and how this game can teach players how to play. Then I will support my thesis by referring the article “Play that can 
+                Do Good” and Brown’s book Videogames and Education.</p>
+                <h2>Project Details</h2>
+                <p>1、James Paul Gee：Beyond characters, good games offer the player intricate, effective, and easy manipulation of the world’s objects, objects which become tools for carrying out the player’s goals; </p>
+                <p>2、Adam Eichenbaum, Daphne Bavelier and C. Shawn Green：Creating an environment that encourages users to invest substantial amounts of time in learning and more hours spent on a task means more learning, and video game encourages players to put time in tasks;</p>
+                <p>3、Harry J. Brown: Adventure games invite the player to inhabit an imaginary world and, in playing the game, ‘to enact an understanding of that world;</p>
+                <p>4、Game Redesign: Add more combat skills and add variety of large monsters</p>`
             }
         ],
         listLoadMore: "View",
