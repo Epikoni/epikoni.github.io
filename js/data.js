@@ -31,13 +31,13 @@ export default {
       ],
         loadMore: {
             text: "了解更多",
-            class: "lovexhj2"
+            class: "method"
         }
     },
     about: {
         title: "关于我",
-        laozi: {
-            img: "./images/me.jpg",
+        me: {
+            img: "./images/ME.PNG",
             content: "<span></span>我叫<b>刘若男</b>，今年21岁，是美国威斯康星麦迪逊大学的一名大四在读生，所学专业是<b>计算机科学</b>辅修<b>游戏设计</b>；<br /><span></span>我个人对于游戏设计开发有<b>浓厚的兴趣</b>，喜欢用学习到的知识去设计与开发一些游戏，喜欢通过游戏表达<b>自己的理念</b>。"
         },
         ability: [{
