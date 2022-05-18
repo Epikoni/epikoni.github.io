@@ -195,7 +195,7 @@ export default {
             {
                 name: "RESUME in ONE page",
                 url: "./Resume/GameDesignerRE.pdf",
-                img: "./images/Resume.jpg"
+                img: "./images/RESUME.jpg"
             },
             {
                 name: "Personal Statement",
