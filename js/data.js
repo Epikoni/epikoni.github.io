@@ -26,7 +26,7 @@ export default {
         {
             name: "Phone",
             icon: "fa-phone",
-            link: "./TEL/phone.txt"
+            link: "./TEL/index.html"
         },
         {
             name: "中文",
@@ -174,7 +174,7 @@ export default {
                 nb: [
                     "Game Design", "Educational meaning", "Game Experience"
                 ],
-                url: "https://docs.google.com/document/d/1bDk6lm1CFCZk4OpGlQvwLiFKHj7SxS_Q/edit?usp=sharing&ouid=117446574999903310626&rtpof=true&sd=true",
+                url: "./Projects/Learning in An Open World.pdf",
                 img: "./images/ZELDA.jpg",
                 content: `<h2>Project Type</h2>
                 <p>Paper in Game Design</p>
