@@ -26,7 +26,7 @@ export default {
         {
             name: "Phone",
             icon: "fa-phone",
-            link: "(+1)6085903470/(+86)13853495120"
+            context: "(+1)6085903470/(+86)13853495120"
         },
         {
             name: "中文",
