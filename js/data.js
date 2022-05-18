@@ -26,7 +26,7 @@ export default {
         {
             name: "Phone",
             icon: "fa-phone",
-            context: "(+1)6085903470/(+86)13853495120"
+            link: "./TEL/phone.txt"
         },
         {
             name: "中文",
