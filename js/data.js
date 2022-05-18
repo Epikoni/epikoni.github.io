@@ -24,9 +24,9 @@ export default {
             link: "./images/Erweicaihong.png"
         },
         {
-            name: "QQ",
-            icon: "fa-qq",
-            link: "https://wpa.qq.com/msgrd?v=3&uin=957239301&site=qq&menu=yes"
+            name: "Phone",
+            icon: "fa-phone",
+            link: "(+1)6085903470/(+86)13853495120"
         },
         {
             name: "中文",
@@ -194,7 +194,7 @@ export default {
             },
             {
                 name: "RESUME in ONE page",
-                url: "./Resume/Resume.pdf",
+                url: "./Resume/GameDesignerRE.pdf",
                 img: "./images/Resume.jpg"
             },
             {
@@ -229,8 +229,8 @@ export default {
                 context: "h957239301"
             },
             {
-                name: "QQ",
-                context: "957239301"
+                name: "Phone",
+                context: "(+1)6085903470/(+86)13853495120"
             }
         ]
     }
