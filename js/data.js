@@ -199,7 +199,8 @@ export default {
             },
             {
                 name: "Personal Statement",
-                img: "../Resume/Resume.pdf"
+                url: "PS",
+                img: "./images/PS.png"
             },
             {
                 name: "More is coming...",
