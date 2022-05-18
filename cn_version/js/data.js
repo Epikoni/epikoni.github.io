@@ -132,7 +132,7 @@ export default {
                 nb: [
                     "TensorFlow", "卷积神经网络", "数据可视化", "梯度加权类激活图（Grad-CAM）", "Python"
                 ],
-                url: "https://github.com/Epikoni/CS639/tree/gh-pages",
+                url: "./Projects/CS639-gh-pages",
                 img: "./images/FACE.jpg",
                 content: `<h2>项目类型</h2>
                 <p>计算机视觉+人工智能论文及演讲</p>
