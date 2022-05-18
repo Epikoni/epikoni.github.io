@@ -167,7 +167,8 @@ export default {
                 <p>1、Research on modern FER methods;</p>
                 <p>2、Data visualization using open source methods;</p>
                 <p>3、Data Training.</p>`,
-            },{
+            },
+            {
                 name: "Learning in An Open World",
                 text: "Analysis of Zelda: Breath of the Wild using Gee's learning Principles ",
                 nb: [
@@ -190,8 +191,19 @@ export default {
                 <p>2、Adam Eichenbaum, Daphne Bavelier and C. Shawn Green：Creating an environment that encourages users to invest substantial amounts of time in learning and more hours spent on a task means more learning, and video game encourages players to put time in tasks;</p>
                 <p>3、Harry J. Brown: Adventure games invite the player to inhabit an imaginary world and, in playing the game, ‘to enact an understanding of that world;</p>
                 <p>4、Game Redesign: Add more combat skills and add variety of large monsters</p>`
-            },{
+            },
+            {
+                name: "RESUME in ONE page",
+                url: "../Resume/Resume.pdf",
+                img: "../Resume/Resume.jpg"
+            },
+            {
+                name: "Personal Statement",
+                img: "../Resume/Resume.pdf"
+            },
+            {
                 name: "More is coming...",
+                url: "Plan",
                 img: "./images/MORE.png"
             }
         ],
