@@ -194,8 +194,8 @@ export default {
             },
             {
                 name: "RESUME in ONE page",
-                url: "../Resume/Resume.pdf",
-                img: "../Resume/Resume.jpg"
+                url: "./Resume/Resume.pdf",
+                img: "./images/Resume.jpg"
             },
             {
                 name: "Personal Statement",
