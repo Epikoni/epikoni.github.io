@@ -200,7 +200,7 @@ export default {
             {
                 name: "Personal Statement",
                 url: "PS",
-                img: "./images/PS.png"
+                img: "./images/PS.jpeg"
             },
             {
                 name: "More is coming...",
