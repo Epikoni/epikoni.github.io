@@ -1,4 +1,4 @@
-import data from './js/data.js'
+import data from './data.js'
 
 new Vue({
     el: "#method",
