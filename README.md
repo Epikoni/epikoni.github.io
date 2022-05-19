@@ -1,4 +1,4 @@
-## 个人简历
+## Personal website
 
-[个人简历 - (刘若男)](https://www.epikoni.com/)
+[Personal portfolio](https://www.epikoni.com/)
 
