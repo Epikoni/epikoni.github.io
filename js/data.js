@@ -193,6 +193,11 @@ export default {
                 <p>4、Game Redesign: Add more combat skills and add variety of large monsters</p>`
             },
             {
+                name: "Portfolio",
+                url: "Portfolio",
+                img: "./images/portfolio.png"
+            },
+            {
                 name: "RESUME in ONE page",
                 url: "./Resume/GameDesignerRE.pdf",
                 img: "./images/RESUME.jpg"
