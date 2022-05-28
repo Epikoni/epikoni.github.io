@@ -194,7 +194,7 @@ export default {
             },
             {
                 name: "Portfolio",
-                url: "Portfolio",
+                url: "portfolio",
                 img: "./images/portfolio.png"
             },
             {
