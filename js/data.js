@@ -194,8 +194,8 @@ export default {
             },
             {
                 name: "Portfolio",
-                url: "portfolio",
-                img: "./images/Portfolio.pdf"
+                url: "./portfolio/Portfolio.pdf",
+                img: "./images/portfolio"
             },
             {
                 name: "RESUME in ONE page",
