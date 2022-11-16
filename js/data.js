@@ -47,33 +47,32 @@ export default {
         },
         ability: [{
                 icon: "fa-gamepad",
-                title: "Game Design",
-                subTitle: "MDA Framework, Gee's Learning Principles...",
+                title: "Game Designer",
+                subTitle: "Unity, RPG Maker, Bitsy, Twine, MDA Framework...",
                 color: "#ff4757",
                 bfb: "80%"
             },
             {
                 icon: "fa-desktop",
-                title: "Game Development",
-                subTitle: "Unity, RPG Maker, Bitsy, Twine,...",
+                title: "Artist",
+                subTitle: "Blender, Procreate, Aseprite, Photoshop，Premier, AfterEffects, Figma...",
                 color: "#ffa502",
                 bfb: "80%"
             },
-            {
-                icon: "fa-photo",
-                title: "Design",
-                subTitle: "Photoshop，Premier, AfterEffects...",
-                color: "#2ed573",
-                bfb: "80%"
-            },
-            {
+                  {
                 icon: "fa-code",
-                title: "Code",
-                subTitle: "Java, C/C++, C#, Python...",
+                title: "Programmer",
+                subTitle: "Java, JavaScript, C/C++, C#, Python...",
                 color: "#1e90ff",
                 bfb: "50%"
+            },
+            {
+                icon: "fa-photo",
+                title: "Interests",
+                subTitle: "Cooking, Game Jams, Compose music, MMORPGs, MOBA, FPS, Boardgames...",
+                color: "#2ed573",
+                bfb: "80%"
             }
-            
         ],
         loadMore: {
             text: "Keep Explore",
@@ -84,9 +83,9 @@ export default {
         title: "My Projects",
         list: [{
                 name: "Before Lost",
-                text: "top-down view，2-d，RPG，pixeled game",
+                text: "Gee! Award Finalist, top-down view，2D，ARPG，single player pixeled game",
                 nb: [
-                    "Original Story", "Time Travel", "Combat Design", "Missions", "Hand-draw","Javascript"
+                    "Time Travel", "Combat Design", "Missions", "Hand-draw", "Javascript"
                 ],
                 url: "https://epikoni.itch.io/before-lost",
                 img: "./images/RPG.jpg",
@@ -95,7 +94,7 @@ export default {
                 <h2>Working Period</h2>
                 <p>1/20/2022 – 5/12/2022，Group of 4</p>
                 <h2>Development Tool</h2>
-                <p>RPG Maker MV，GitHub，Javascript</p>
+                <p>RPG Maker MV，Javascript</p>
                 <h2>Project Background</h2>
                 <p>With the theme of environmental protection, design a game that takes into account the harm that current industrialization brings to trees and animals. The protagonist can use the ancestral machine to travel back in time and do his best to save the world before it is destroyed.</p>
                 <h2>Gameplay</h2>
@@ -122,9 +121,51 @@ export default {
                     <li><img src="./images/FACTOR.PNG"></li>
                 </ul>
                 <h2>Responsibility</h2>
-                <p>1、Mission Design;</p>
+                <p>1、Story Concept, Map and mission Design;</p>
                 <p>2、Write events script, including mission flow and combat system;</p>
-                <p>3、Testing and debugging.</p>`
+                <p>3、Program visual effects.</p>`
+            },
+               {
+                name: "Underground Princess",
+                text: "Single player 3D room escape game about a story: a brave female nurse rescues an imprisoned schoolgirl",
+                nb: [
+                    "Game Design and Development", "Room Escape", "Girl helps girls", "Unity", "C#", "Blender"
+                ],
+                url: "https://epikoni.itch.io/underground-princess",
+                img: "./images/blender-unity-3d-logos.jpg",
+                content: `<h2>Project Type</h2>
+                <p>Game Design and Development</p>
+                <h2>Development Period</h2>
+                <p>5/26/2021 – 8/21/2021</p>
+                <h2>Development Tool</h2>
+                <p>RPG Maker MV，Javascript</p>
+                <h2>Project Background</h2>
+                <p>Girls help girls is a very warm and powerful phrase.
+People with similar experiences and feelings are more likely to understand and empathize with each other, and are more able to speak to the
+point and help to the point. Compared to men, women are generally more sensitive, more empathetic, more compassionate, and more likely
+to express their emotions. Because the gender brings a sense of inferiority is also ubiquitous, by all kinds of open, private and invisible
+harassment, was not valued, was denied ability and effort. </p>
+                <h2>Gameplay</h2>
+                <p>1、Story: Around 1am on Mother's day (May 14), Alvin kidnapped Hannah. A witness saw this and reported it to police first thing in the morning, they met in the café across from where the kidnapping happened. Mya, a nurse, overheard the recount of the events and recalled a previous patient who matched the description and determined that Alvin was the kidnapper. She used the Hospital's database to find Alvin and save Hannah. June 25, 2022</p>
+                <p>2、Core mechanism: Unlock all kinds of combination locks according to the scene hints, and finally escape the basement;</p>
+                <p>3、Dynamic: Pick up objects and rotate, shortcut: pickup cheese (speciality in Wisconsin) and feed mouse；</p>
+                <h2>Project plan</h2>
+                <p>1、Confirm game theme；</p>
+                <p>2、Determine the Unity as the engine;</p>
+                <p>3、Brainstorm puzzles;</p>
+                <p>4、Build models in Blender;</p>
+                <p>5、Build scenes in Unity;</p>
+                <p>6、Using engine's built-in functions to implement basic function(movement etc.);</p>
+                <p>7、Program features: pick up and rotate, zoom in and out, switch scenes etc.;</p>
+                <p>8、Add different visual and sound effects;</p>
+                <p>9、Repeatedly testing each puzzle, modifying values and fixing bugs;</p>
+                <h2>Project preview</h2>
+                <ul>
+                    <li><img src="./images/STONE.PNG"></li>
+                    <li><img src="./images/EVENT.PNG"></li>
+                    <li><img src="./images/BATTLE.PNG"></li>
+                    <li><img src="./images/FACTOR.PNG"></li>
+                </ul></p>`
             },
             {
                 name: "Facial Emotion Recognition",
