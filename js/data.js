@@ -195,12 +195,12 @@ export default {
             {
                 name: "Portfolio",
                 url: "portfolio",
-                img: "./images/portfolio.png"
+                img: "./images/Portfolio.pdf"
             },
             {
                 name: "RESUME in ONE page",
                 url: "./Resume/GameDesignerRE.pdf",
-                img: "./images/RESUME.jpg"
+                img: "./images/Resume- Ruonan Liu.pdf"
             },
             {
                 name: "Personal Statement",
