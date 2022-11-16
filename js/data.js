@@ -204,7 +204,7 @@ export default {
             },
             {
                 name: "Personal Statement",
-                url: "PS",
+                url: "./PS、PS.pdf",
                 img: "./images/PS.jpg"
             },
             {
