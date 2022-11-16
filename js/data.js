@@ -116,8 +116,7 @@ export default {
                 <h2>Project preview</h2>
                 <ul>
                     <li><img src="./images/STONE.png"></li>
-                    <li><img src="./images/EVENT.PNG"></li>
-                    <li><img src="./images/BATTLE.PNG"></li>
+                    <li><img src="./images/snow.png"></li>
                     <li><img src="./images/FACTOR.PNG"></li>
                 </ul>
                 <h2>Responsibility</h2>
