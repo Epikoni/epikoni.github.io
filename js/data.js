@@ -115,7 +115,7 @@ export default {
                 <p>8、Repeatedly testing each map and mission, modifying values and fixing bugs;</p>
                 <h2>Project preview</h2>
                 <ul>
-                    <li><img src="./images/STONE.PNG"></li>
+                    <li><img src="./images/STONE.png"></li>
                     <li><img src="./images/EVENT.PNG"></li>
                     <li><img src="./images/BATTLE.PNG"></li>
                     <li><img src="./images/FACTOR.PNG"></li>
