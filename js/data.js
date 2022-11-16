@@ -199,8 +199,8 @@ export default {
             },
             {
                 name: "RESUME in ONE page",
-                url: "./Resume/GameDesignerRE.pdf",
-                img: "./images/Resume- Ruonan Liu.pdf"
+                url: "./Resume/Resume- Ruonan Liu.pdf",
+                img: "./images/Resume"
             },
             {
                 name: "Personal Statement",
