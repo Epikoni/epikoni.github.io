@@ -88,7 +88,7 @@ export default {
                     "Time Travel", "Combat Design", "Missions", "Hand-draw", "Javascript"
                 ],
                 url: "https://epikoni.itch.io/before-lost",
-                img: "./images/RPG.jpg",
+                img: "./images/enviro.JPG",
                 content: `<h2>Project type</h2>
                 <p>Game design and development</p>
                 <h2>Working Period</h2>
@@ -131,7 +131,7 @@ export default {
                     "Game Design and Development", "Room Escape", "Girl helps girls", "Unity", "C#", "Blender"
                 ],
                 url: "https://epikoni.itch.io/underground-princess",
-                img: "./images/blender-unity-3d-logos.jpg",
+                img: "./images/ghg.jpg",
                 content: `<h2>Project Type</h2>
                 <p>Game Design and Development</p>
                 <h2>Development Period</h2>
@@ -160,10 +160,9 @@ harassment, was not valued, was denied ability and effort. </p>
                 <p>9、Repeatedly testing each puzzle, modifying values and fixing bugs;</p>
                 <h2>Project preview</h2>
                 <ul>
-                    <li><img src="./images/STONE.PNG"></li>
-                    <li><img src="./images/EVENT.PNG"></li>
-                    <li><img src="./images/BATTLE.PNG"></li>
-                    <li><img src="./images/FACTOR.PNG"></li>
+                    <li><img src="./images/s1.png"></li>
+                    <li><img src="./images/s2.png"></li>
+                    <li><img src="./images/s4.png"></li>
                 </ul></p>`
             },
             {
