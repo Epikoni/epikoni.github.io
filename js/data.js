@@ -163,6 +163,7 @@ harassment, was not valued, was denied ability and effort. </p>
                     <li><img src="./images/s1.png"></li>
                     <li><img src="./images/s2.png"></li>
                     <li><img src="./images/s4.png"></li>
+                    <li><img src="./images/s3.png"></li>
                 </ul></p>`
             },
             {
@@ -255,7 +256,7 @@ harassment, was not valued, was denied ability and effort. </p>
         listLoadMore: "View",
         loadMore: {
             text: "Keep Explore",
-            class: "method4"
+            class: "method3"
         }
     },
     contact: {
