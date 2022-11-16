@@ -256,7 +256,7 @@ harassment, was not valued, was denied ability and effort. </p>
         listLoadMore: "View",
         loadMore: {
             text: "Keep Explore",
-            class: "method3"
+            class: "method4"
         }
     },
     contact: {
