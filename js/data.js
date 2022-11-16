@@ -55,7 +55,7 @@ export default {
             {
                 icon: "fa-desktop",
                 title: "Game Development",
-                subTitle: "RPG Maker, Bitsy, Twine, Unity...",
+                subTitle: "Unity, RPG Maker, Bitsy, Twine,...",
                 color: "#ffa502",
                 bfb: "80%"
             },
