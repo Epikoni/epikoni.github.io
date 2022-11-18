@@ -53,7 +53,7 @@ export default {
                 bfb: "80%"
             },
             {
-                icon: "fa-desktop",
+                icon: "fa-photo",
                 title: "Artist",
                 subTitle: "Blender, Procreate, Aseprite, Photoshop，Premier, AfterEffects, Figma...",
                 color: "#ffa502",
@@ -244,7 +244,7 @@ harassment, was not valued, was denied ability and effort. </p>
             },
             {
                 name: "Personal Statement",
-                url: "./PS、PS.pdf",
+                url: "./PS/PS.pdf",
                 img: "./images/PS.jpg"
             },
             {
