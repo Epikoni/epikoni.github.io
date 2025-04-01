@@ -43,14 +43,14 @@ export default {
         title: "About Me",
         meme: {
             img: "./images/ME.PNG",
-            content: "<span></span>I am <b>Shirley</b>，22 years old，first year gradute student in University of California-Santa Cruz, major in <b>Games & Playable Media</b>. Graduated in University of Wisconsin-Madison <b>Computer Science</b> major；<br /><span></span>I have a <b>strong interest</b> in game design and development, I like to use the knowledge I have learned to design and develop some games, and I like to <b>express my ideas through games</b>；<br /><span></span>I am a <b>teamworker</b> and willing to <b>keep learning</b> new stuffs."
+            content: "<span></span>I am <b>Shirley</b>，24 years old，new grad student in University of California-Santa Cruz, major in <b>Games & Playable Media</b>. Graduated in University of Wisconsin-Madison <b>Computer Science</b> major；<br /><span></span>I have a <b>strong interest</b> in game design and development, I like to use the knowledge I have learned to design and develop some games, and I like to <b>express my ideas through games</b>；<br /><span></span>I am a <b>teamworker</b> and willing to <b>keep learning</b> new stuffs."
         },
         ability: [{
                 icon: "fa-gamepad",
                 title: "Game Designer",
-                subTitle: "Unity, RPG Maker, Bitsy, Twine, MDA Framework...",
+                subTitle: "Unity, Unreal, RPG Maker, Bitsy, Twine, MDA Framework...",
                 color: "#ff4757",
-                bfb: "80%"
+                bfb: "100%"
             },
             {
                 icon: "fa-photo",
@@ -71,7 +71,7 @@ export default {
                 title: "Interests",
                 subTitle: "Cooking, Game Jams, Compose music, MMORPGs, MOBA, FPS, Boardgames...",
                 color: "#2ed573",
-                bfb: "80%"
+                bfb: "100%"
             }
         ],
         loadMore: {
@@ -81,7 +81,54 @@ export default {
     },
     project: {
         title: "My Projects",
-        list: [{
+        list: [
+            {
+                name: "Mob Street",
+                text: "round-based multiplayer social game in VRChat",
+                nb: [
+                    "Strategic deception", "Player interaction", "Game economy", "Mission systems", " Narrative content"
+                ],
+                url: "https://vrchat.com/home/launch?worldId=wrld_1edcca0a-e986-49e9-b726-e94b865c809e",
+                img: "./images/MobStreetBanner.jpg",
+                content: `<h2>Project type</h2>
+                <p>Game design and development</p>
+                <h2>Working Period</h2>
+                <p>9/20/2024 – 3/16/2025，Group of 6</p>
+                <h2>Development Tool</h2>
+                <p>Github, Perforce, Unity, JIRA</p>
+                <h2>Project Background</h2>
+                <p>Mob Street is a multiplayer social deception game developed within VRChat, designed to encourage player interaction, deception, and strategy. The game is set in an urban environment where players assume roles as mobsters, aiming to complete their objectives before their opponents. The gameplay emphasizes emergent storytelling, negotiation, and calculated risk-taking, making it suitable for players who enjoy dynamic social interactions;</p>
+                <h2>Gameplay</h2>
+                <p>1、Story: The game takes place in "The Streets," a bustling yet dangerous urban district where underground trades and secret deals define the social order. As a mobster, each player must hustle their way to success, accumulating wealth while outmaneuvering rivals. The law is absent, and trust is a fragile currency. Only those who can deceive, strategize, and adapt will thrive in the cutthroat environment of Mob Street;</p>
+                <p>2、Core mechanism: Players must complete three primary tasks to win:
+                <p>   - Selling a product to another player;</p>
+                <p>   - Buying a specific type of product from another player;</p>
+                <p>   - Eliminating a designated target who is holding a particular item.To add tension, a new rule dictates that killing the wrong target will result in becoming "wanted"—marked by a blood footprint and hunted by all other players;</p>
+                <p>3、Dynamic: Social Negotiation: Players must convince others to trade with them, often through deception;</p>
+                <p>   -  Hidden Information: Each player’s objectives are secret, leading to paranoia and double-crossing;</p>
+                <p>   -  Risk vs. Reward: Eliminating a target must be done carefully, as mistakes can turn the hunter into the hunted;</p>
+                <p>   - Map Navigation: The subway system allows movement between two stations, creating opportunities for escape and pursuit;</p>
+                <p>   -  Time Pressure: Rounds last 5-15 minutes, requiring players to make swift yet calculated moves;</p>
+                <p>4、Art style: Mob Street features a gritty, stylized urban aesthetic reminiscent of noir crime films, with exaggerated character designs and a dark yet vibrant cityscape. The lighting and textures create an immersive, moody atmosphere that complements the theme of deception and survival;</p>
+                <h2>Project plan</h2>
+                <p>1、Prototyping: Core mechanics tested in a VRChat environment, refining interactions and player dynamics;</p>
+                <p>2、Playtesting: Multiple rounds of player testing to evaluate balance, engagement, and potential exploits;</p>
+                <p>3、Iteration: Based on feedback, adjusting mechanics, UI elements, and map design;</p>
+                <p>4、Finalization: Polishing assets, optimizing performance, and preparing for public release;</p>
+                <h2>Project preview</h2>
+                <ul>
+                    <li><img src="./images/STONE.png"></li>
+                    <li><img src="./images/snow.png"></li>
+                    <li><img src="./images/FACTOR.PNG"></li>
+                </ul>
+                <h2>Responsibility</h2>
+                <p>1、<b>Game Design:</b> Designing core mechanics, objectives, and balance considerations;</p>
+                <p>2、<b>System Implementation:</b> Setting up game logic within VRChat, including player interactions and item tracking;</p>
+                <p>3、<b>Level Design:</b> Designing the layout of "The Streets" to ensure engaging gameplay flow;</p>
+                <p>4、<b>Documentation & Presentation:</b> Communicating design decisions and development progress to the team;</p>
+                <p>5、<b>Playtest Management:</b> Organizing playtests, gathering player feedback, and iterating on design.</p>`
+            },
+            {
                 name: "Before Lost",
                 text: "Gee! Award Finalist, top-down view，2D，ARPG，single player pixeled game",
                 nb: [
