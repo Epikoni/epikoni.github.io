@@ -1,4 +1,4 @@
 ## Personal website
 
-[Personal portfolio](https://www.epikoni.com/)
+[Personal portfolio](www.epikoni.com/)
 
