@@ -282,16 +282,16 @@ harassment, was not valued, was denied ability and effort. </p>
                 <p>3、Harry J. Brown: Adventure games invite the player to inhabit an imaginary world and, in playing the game, ‘to enact an understanding of that world;</p>
                 <p>4、Game Redesign: Add more combat skills and add variety of large monsters</p>`
             },
-            {
+            /* {
                 name: "Portfolio",
                 url: "./portfolio/Portfolio.pdf",
                 img: "./images/portfolio.png"
-            },
+            }, */
             {
                 name: "RESUME in ONE page",
                 url: "./Resume/Resume - Ruonan Liu-2025.pdf",
                 img: "./images/RESUME.jpg"
-            },
+            }/* ,
             {
                 name: "Personal Statement",
                 url: "./PS/PS.pdf",
@@ -301,7 +301,7 @@ harassment, was not valued, was denied ability and effort. </p>
                 name: "More is coming...",
                 url: "Plan",
                 img: "./images/MORE.png"
-            }
+            } */
         ],
         listLoadMore: "View",
         loadMore: {

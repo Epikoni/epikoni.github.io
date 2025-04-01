@@ -110,7 +110,7 @@
             <el-dialog :title="method.project.list[projectIndex].name" :visible.sync="projectDialog"
                 append-to-body="true" modal-append-to-body="true">
                 <a :href="method.project.list[projectIndex].url" class="method3ContentBtn" target="_blank">Click to View</a>
-                <a :href="method.project.list[projectIndex].url" class="method3ContentBtn" target="_blank">Click to </a>
+                <b :href="method.project.list[projectIndex].url" class="method3ContentBtn" target="_blank">Click to </b>
                 <div v-html="method.project.list[projectIndex].content"></div>
             </el-dialog>
         </div>
