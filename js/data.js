@@ -239,7 +239,7 @@ harassment, was not valued, was denied ability and effort. </p>
             },
             {
                 name: "RESUME in ONE page",
-                url: "./Resume/Resume- Ruonan Liu.pdf",
+                url: "./Resume/Resume - Ruonan Liu-2025.pdf",
                 img: "./images/RESUME.jpg"
             },
             {
@@ -271,11 +271,11 @@ harassment, was not valued, was denied ability and effort. </p>
             },
             {
                 name: "Wechat",
-                context: "h957239301"
+                context: "shirley_053"
             },
             {
                 name: "Phone",
-                context: "(+1)608-590-3470/(+86)138-5349-5120"
+                context: "(+1)608-590-3470/(+86)173-6652-3835"
             }
         ]
     }
