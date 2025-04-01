@@ -84,7 +84,7 @@ export default {
         list: [
             {
                 name: "Mob Street",
-                text: "round-based multiplayer social game in VRChat",
+                text: "Round-based multiplayer social game in VRChat",
                 nb: [
                     "Strategic deception", "Player interaction", "Game economy", "Mission systems", " Narrative content"
                 ],
@@ -97,24 +97,25 @@ export default {
                 <h2>Development Tool</h2>
                 <p>Github, Perforce, Unity, JIRA</p>
                 <h2>Project Background</h2>
-                <p>Mob Street is a multiplayer social deception game developed within VRChat, designed to encourage player interaction, deception, and strategy. The game is set in an urban environment where players assume roles as mobsters, aiming to complete their objectives before their opponents. The gameplay emphasizes emergent storytelling, negotiation, and calculated risk-taking, making it suitable for players who enjoy dynamic social interactions;</p>
+                <p>Mob Street is a multiplayer social deception game developed within VRChat, designed to encourage player interaction, deception, and strategy. The game is set in an urban environment where players assume roles as mobsters, aiming to complete their objectives before their opponents. The gameplay emphasizes emergent storytelling, negotiation, and calculated risk-taking, making it suitable for players who enjoy dynamic social interactions.</p>
                 <h2>Gameplay</h2>
-                <p>1、Story: The game takes place in "The Streets," a bustling yet dangerous urban district where underground trades and secret deals define the social order. As a mobster, each player must hustle their way to success, accumulating wealth while outmaneuvering rivals. The law is absent, and trust is a fragile currency. Only those who can deceive, strategize, and adapt will thrive in the cutthroat environment of Mob Street;</p>
+                <p>1、Story: The game takes place in "The Streets," a bustling yet dangerous urban district where underground trades and secret deals define the social order. As a mobster, each player must hustle their way to success, accumulating wealth while outmaneuvering rivals. The law is absent, and trust is a fragile currency. Only those who can deceive, strategize, and adapt will thrive in the cutthroat environment of Mob Street.</p>
                 <p>2、Core mechanism: Players must complete three primary tasks to win:
                 <p>   - Selling a product to another player;</p>
                 <p>   - Buying a specific type of product from another player;</p>
                 <p>   - Eliminating a designated target who is holding a particular item.To add tension, a new rule dictates that killing the wrong target will result in becoming "wanted"—marked by a blood footprint and hunted by all other players;</p>
-                <p>3、Dynamic: Social Negotiation: Players must convince others to trade with them, often through deception;</p>
+                <p>3、Dynamic: </p>
+                <p>   -  Social Negotiation: Players must convince others to trade with them, often through deception;</p>
                 <p>   -  Hidden Information: Each player’s objectives are secret, leading to paranoia and double-crossing;</p>
                 <p>   -  Risk vs. Reward: Eliminating a target must be done carefully, as mistakes can turn the hunter into the hunted;</p>
-                <p>   - Map Navigation: The subway system allows movement between two stations, creating opportunities for escape and pursuit;</p>
-                <p>   -  Time Pressure: Rounds last 5-15 minutes, requiring players to make swift yet calculated moves;</p>
+                <p>   -  Map Navigation: The subway system allows movement between two stations, creating opportunities for escape and pursuit;</p>
+                <p>   -  Time Pressure: Rounds last 5-15 minutes, requiring players to make swift yet calculated moves.</p>
                 <p>4、Art style: Mob Street features a gritty, stylized urban aesthetic reminiscent of noir crime films, with exaggerated character designs and a dark yet vibrant cityscape. The lighting and textures create an immersive, moody atmosphere that complements the theme of deception and survival;</p>
                 <h2>Project plan</h2>
                 <p>1、Prototyping: Core mechanics tested in a VRChat environment, refining interactions and player dynamics;</p>
                 <p>2、Playtesting: Multiple rounds of player testing to evaluate balance, engagement, and potential exploits;</p>
                 <p>3、Iteration: Based on feedback, adjusting mechanics, UI elements, and map design;</p>
-                <p>4、Finalization: Polishing assets, optimizing performance, and preparing for public release;</p>
+                <p>4、Finalization: Polishing assets, optimizing performance, and preparing for public release.</p>
                 <h2>Project preview</h2>
                 <ul>
                     <li><img src="./images/STONE.png"></li>
@@ -150,7 +151,7 @@ export default {
                       climate warming and ozone depletion. Thinking of the impact all this would have, he resolved to do something to change the world.</p>
                 <p>2、Core mechanism: follow the storyline across the map to complete the mission objectives;</p>
                 <p>3、Dynamic: collect mission items, collect easter egg items (letters, noodles, etc.), battle system, skills, and equipment upgrades；</p>
-                <p>4、Art style: bird's-eye view, pixel style, turn-based combat;</p>
+                <p>4、Art style: bird's-eye view, pixel style, turn-based combat.</p>
                 <h2>Project plan</h2>
                 <p>1、Determine the RPG Maker MV as the engine；</p>
                 <p>2、Dividing the story by maps, with each chapter of the story combined with quests as well as map drawing;</p>
@@ -159,7 +160,7 @@ export default {
                 <p>5、The engine's built-in functions to implement quest flow including NPC dialogues, etc., partly using Javascript;</p>
                 <p>6、Program the turn-based combat system, add different weapons and skills and adjust the values;</p>
                 <p>7、Add different visual and sound effects;</p>
-                <p>8、Repeatedly testing each map and mission, modifying values and fixing bugs;</p>
+                <p>8、Repeatedly testing each map and mission, modifying values and fixing bugs.</p>
                 <h2>Project preview</h2>
                 <ul>
                     <li><img src="./images/STONE.png"></li>
@@ -194,7 +195,7 @@ harassment, was not valued, was denied ability and effort. </p>
                 <h2>Gameplay</h2>
                 <p>1、Story: Around 1am on Mother's day (May 14), Alvin kidnapped Hannah. A witness saw this and reported it to police first thing in the morning, they met in the café across from where the kidnapping happened. Mya, a nurse, overheard the recount of the events and recalled a previous patient who matched the description and determined that Alvin was the kidnapper. She used the Hospital's database to find Alvin and save Hannah. June 25, 2022</p>
                 <p>2、Core mechanism: Unlock all kinds of combination locks according to the scene hints, and finally escape the basement;</p>
-                <p>3、Dynamic: Pick up objects and rotate, shortcut: pickup cheese (speciality in Wisconsin) and feed mouse；</p>
+                <p>3、Dynamic: Pick up objects and rotate, shortcut: pickup cheese (speciality in Wisconsin) and feed mouse.</p>
                 <h2>Project plan</h2>
                 <p>1、Confirm game theme；</p>
                 <p>2、Determine the Unity as the engine;</p>
@@ -204,7 +205,7 @@ harassment, was not valued, was denied ability and effort. </p>
                 <p>6、Using engine's built-in functions to implement basic function(movement etc.);</p>
                 <p>7、Program features: pick up and rotate, zoom in and out, switch scenes etc.;</p>
                 <p>8、Add different visual and sound effects;</p>
-                <p>9、Repeatedly testing each puzzle, modifying values and fixing bugs;</p>
+                <p>9、Repeatedly testing each puzzle, modifying values and fixing bugs.</p>
                 <h2>Project preview</h2>
                 <ul>
                     <li><img src="./images/s1.png"></li>
@@ -230,7 +231,7 @@ harassment, was not valued, was denied ability and effort. </p>
                 <h2>Project Motivation</h2>
                 <p>Facial expressions are an important communication tool for human beings. Through facial expressions, people can recognize the mental state of others, such as happiness, anger, sadness, etc. Facial emotion recognition (FER) is achieved by measuring changes in various body parameters, such as measuring heart rate, eye activity, EEG, etc., or by analyzing facial images. 
                    The latter is popular due to its abundant computational resources and cost-effectiveness. FER studies based on camera inputs can be divided into two groups, conventional methods and methods using neural networks. Conventional FER methods are based on hand-designed features to recognize facial emotions. 
-                   The typical process involves detecting regions, extracting features, and then using a pre-trained classifier to recognize facial emotions. With the availability of large datasets, it has become a general approach for computer vision. In the published study, Kim et al. proposed a hybrid model consisting of CNN and long short-term memory (LSTM) with the highest performance and accuracy of 78.61%</p>
+                   The typical process involves detecting regions, extracting features, and then using a pre-trained classifier to recognize facial emotions. With the availability of large datasets, it has become a general approach for computer vision. In the published study, Kim et al. proposed a hybrid model consisting of CNN and long short-term memory (LSTM) with the highest performance and accuracy of 78.61%. </p>
                 <h2>Project Details</h2>
                 <p>1、Methods：Convolution, Activation, Pooling, Batch Normalization, Dropout;</p>
                 <p>2、Database：The Facial Expression Recognition 2013 (FER-2013) database，inlcuding 28709 training samples and 3589 validation samples;</p>
