@@ -118,9 +118,10 @@ export default {
                 <p>4、Finalization: Polishing assets, optimizing performance, and preparing for public release.</p>
                 <h2>Project preview</h2>
                 <ul>
-                    <li><img src="./images/STONE.png"></li>
-                    <li><img src="./images/snow.png"></li>
-                    <li><img src="./images/FACTOR.PNG"></li>
+                    <li><img src="./images/map.png"></li>
+                    <li><img src="./images/mfd.gif"></li>
+                    <li><img src="./images/trade.gif"></li>
+                    <li><img src="./images/trade.gif"></li>
                 </ul>
                 <h2>Responsibility</h2>
                 <p>1、<b>Game Design:</b> Designing core mechanics, objectives, and balance considerations;</p>
