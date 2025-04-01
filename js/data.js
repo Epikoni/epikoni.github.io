@@ -89,6 +89,7 @@ export default {
                     "Strategic deception", "Player interaction", "Game economy", "Mission systems", " Narrative content"
                 ],
                 url: "https://vrchat.com/home/launch?worldId=wrld_1edcca0a-e986-49e9-b726-e94b865c809e",
+                url: "https://vrchat.com/home/launch?worldId=wrld_1edcca0a-e986-49e9-b726-e94b865c809e",
                 img: "./images/MobStreetBanner1.jpg",
                 content: `<h2>Project type</h2>
                 <p>Game design and development</p>
