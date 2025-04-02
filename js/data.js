@@ -83,51 +83,6 @@ export default {
         title: "My Projects",
         list: [
             {
-                name: "Revelation M",
-                text: "MMORPG Open world mobile game",
-                nb: [
-                    "Adventure", "Social", "Immersive exploration", "Collaborative events"
-                ],
-                url: "https://rvlm.haoplay.com/",
-                img: "./images/RM.jpg",
-                content: `<h2>Project type</h2>
-                <p>Intern as Game designer</p>
-                <h2>Working Period</h2>
-                <p>1/20/2023 – 8/1/2023</p>
-                <h2>Development Tool</h2>
-                <p>Unity, Excel, NetEase's self-developed collaboration and version control tools</p>
-                <h2>Project Background</h2>
-                <p>​Revelation M, also known as Revelation: New World, is an open-world MMORPG developed by NetEase Games and published by HaoPlay Limited. Set in the expansive continent of Nuanor, the game offers players the freedom to explore diverse landscapes, engage in dynamic combat, and interact with a richly detailed environment.</p>
-                <h2>Gameplay</h2>
-                <p>1、Exploration & Open World</p>
-                <p>   -  Players can explore a massive, detailed world with seamless environments;</p>
-                <p>   -  Features include flying mechanics with customizable wings, underwater exploration, and dynamic weather;</p>
-                <p>   -  The game offers cities, dungeons, and various landscapes to discover.</p>
-                <p>2、Character Classes & Combat</p>
-                <p>   - Players choose from multiple character classes, each with unique abilities;</p>
-                <p>   - Combat includes real-time action with a mix of melee and ranged attacks;</p>
-                <p>   - Players can switch between different playstyles depending on the class;</p>
-                <p>3、Customization & Roleplaying</p>
-                <p>   -  Players can customize their character’s appearance, outfits, and mounts;</p>
-                <p>   -  The game includes life skills like cooking, music playing, and fishing;</p>
-                <h2>Game Specific Metrics</h2>
-                <p>1、Downloads: Over 500,000 downloads on Google Play;</p>
-                <p>2、User Reviews: More than 24,000 reviews with an average rating of 4.5/5;</p>
-                <h2>Game preview</h2>
-                <ul>
-                    <li><img src="./images/p1.jpg"></li>
-                    <li><img src="./images/p2.jpg"></li>
-                    <li><img src="./images/p3.jpg"></li>
-                    <li><img src="./images/p4.jpg"></li>
-                    <li><img src="./images/p5.jpg"></li>
-                </ul>
-                <h2>Responsibility</h2>
-                <p>1、Designed themed-month activities (mini-games and premium outfits), which contributed to 60% of the monthly revenue;</p>
-                <p>2、Created limited-time event designs tailored to different regional cultures, ensuring engaging and culturally relevant player experiences;</p>
-                <p>3、Configured and managed game-related data tables, following up in an Agile/Scrum environment while collaborating with programmers and artists;</p>
-                <p>4、Optimized the game system's user experience by adapting UI text for a multilingual server (five languages), ensuring seamless localization;</p>`
-            },
-            {
                 name: "Mob Street",
                 text: "Round-based multiplayer social game in VRChat",
                 nb: [
