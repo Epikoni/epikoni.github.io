@@ -91,7 +91,7 @@ export default {
                 url: "https://rvlm.haoplay.com/",
                 img: "./images/RM.jpg",
                 content: `<h2>Project type</h2>
-                <p>Intern as Game designer</p>
+                <p>Intern as Game designer at Netease Games</p>
                 <h2>Working Period</h2>
                 <p>1/20/2023 – 8/1/2023</p>
                 <h2>Development Tool</h2>
