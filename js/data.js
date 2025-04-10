@@ -166,7 +166,8 @@ export default {
                     <li><img src="./images/map.png"></li>
                     <li><img src="./images/mfd.gif"></li>
                     <li><img src="./images/trade.gif"></li>
-                    <li><img src="./images/trade.gif"></li>
+                    <li><img src="./images/Final1.gif"></li>
+                    <li><img src="./images/Final3.gif"></li>
                 </ul>
                 <h2>Responsibility</h2>
                 <p>1、<b>Game Design:</b> Designing core mechanics, objectives, and balance considerations;</p>
